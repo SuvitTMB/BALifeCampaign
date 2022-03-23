@@ -33,7 +33,7 @@ $(document).ready(function () {
   $("#MyProfile").html(str);  
   Connect_DB();
   CheckData();
-  */
+  */ 
   
   main();
 });
