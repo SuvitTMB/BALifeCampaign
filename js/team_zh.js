@@ -48,7 +48,7 @@ function loadZH(){
       "bDestroy": true,    
       data: dataSrc,
       columns: [
-        { title: "ชื่อ-สมุล" },
+        { title: "ชื่อ-สกุล" },
         { title: "สาขา" },
         { title: "APENET", className: "txt-right" },
         { title: "TotalPoint", className: "txt-right"  },
