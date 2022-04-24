@@ -1,1 +1,604 @@
-var _0x556c49=_0x48e1;(function(_0x1ad68c,_0x18b681){var _0x488fa3=_0x48e1,_0x1d217c=_0x1ad68c();while(!![]){try{var _0x4fe48b=parseInt(_0x488fa3(0x1a4))/0x1*(-parseInt(_0x488fa3(0x1ba))/0x2)+-parseInt(_0x488fa3(0x221))/0x3*(-parseInt(_0x488fa3(0x1d3))/0x4)+parseInt(_0x488fa3(0x213))/0x5+-parseInt(_0x488fa3(0x1d9))/0x6+parseInt(_0x488fa3(0x1f2))/0x7*(parseInt(_0x488fa3(0x1c4))/0x8)+-parseInt(_0x488fa3(0x1ee))/0x9+parseInt(_0x488fa3(0x20f))/0xa*(-parseInt(_0x488fa3(0x1bc))/0xb);if(_0x4fe48b===_0x18b681)break;else _0x1d217c['push'](_0x1d217c['shift']());}catch(_0x57a029){_0x1d217c['push'](_0x1d217c['shift']());}}}(_0x4aaa,0x2a006));var i=0x0,stxtEmpID='',stxtEmpName='',stxtEmpPhone='',stxtEmpGroup='',dbProfile='',CheckFoundData=0x0,EidProfile='',dateString='',sDateRegister='',sCheckRedeemPoint=0x0,sCheckTNIapprove=0x0,sCheckLevel=0x0,sCodeName='',sDisplayDate='',sMemberlog='';const x=document['querySelectorAll'](_0x556c49(0x222)+i+'\x22]');$(document)['ready'](function(){main();});function _0x48e1(_0x4414b1,_0x192073){var _0x4aaaa6=_0x4aaa();return _0x48e1=function(_0x48e149,_0x52615d){_0x48e149=_0x48e149-0x199;var _0x2f6d25=_0x4aaaa6[_0x48e149];return _0x2f6d25;},_0x48e1(_0x4414b1,_0x192073);}async function main(){var _0x3a70fa=_0x556c49;await liff[_0x3a70fa(0x1a7)]({'liffId':'1655966947-jgGrdY14'}),document[_0x3a70fa(0x19f)]('isLoggedIn')[_0x3a70fa(0x206)](liff['isLoggedIn']()),liff['isLoggedIn']()?getUserProfile():liff[_0x3a70fa(0x1d7)]();}async function getUserProfile(){var _0x1214fb=_0x556c49,_0x27b186='';const _0x256d77=await liff[_0x1214fb(0x1f0)]();sessionStorage[_0x1214fb(0x1ad)](_0x1214fb(0x200),_0x256d77[_0x1214fb(0x1b3)]),sessionStorage[_0x1214fb(0x1ad)](_0x1214fb(0x1a9),_0x256d77[_0x1214fb(0x1f8)]),sessionStorage[_0x1214fb(0x1ad)](_0x1214fb(0x19b),_0x256d77['pictureUrl']),_0x27b186+='<div><img\x20src=\x22'+sessionStorage[_0x1214fb(0x1f4)]('LinePicture')+_0x1214fb(0x19d),_0x27b186+=_0x1214fb(0x19c)+sessionStorage[_0x1214fb(0x1f4)](_0x1214fb(0x1a9))+_0x1214fb(0x22f),$(_0x1214fb(0x1d6))[_0x1214fb(0x1ec)](_0x27b186),Connect_DB(),CheckData();}function openWindow(){var _0x3a58a5=_0x556c49;liff[_0x3a58a5(0x223)]({'url':_0x3a58a5(0x1e9),'external':!![]});}function Connect_DB(){var _0x94addf=_0x556c49,_0x2c3fa9={'apiKey':_0x94addf(0x1ce),'authDomain':_0x94addf(0x1e4),'projectId':_0x94addf(0x22b),'storageBucket':_0x94addf(0x1cc),'messagingSenderId':_0x94addf(0x215),'appId':'1:653667385625:web:a5aed08500de80839f0588','measurementId':_0x94addf(0x1a2)};firebase[_0x94addf(0x20a)](_0x2c3fa9),dbProfile=firebase['firestore']()[_0x94addf(0x21f)]('CheckProfile'),dbTNIdate=firebase[_0x94addf(0x1c7)]()['collection'](_0x94addf(0x1ae)),dbBAlifeMember=firebase[_0x94addf(0x1c7)]()['collection'](_0x94addf(0x20e)),dbBAlifeMember_SBO=firebase['firestore']()[_0x94addf(0x21f)](_0x94addf(0x1b4)),dbBAlifeMember_SBOZM=firebase[_0x94addf(0x1c7)]()[_0x94addf(0x21f)](_0x94addf(0x229)),dbBAlifeMember_BAzh=firebase['firestore']()[_0x94addf(0x21f)]('BAlifeMember_ZH'),dbBAlifeMember_BArh=firebase[_0x94addf(0x1c7)]()[_0x94addf(0x21f)](_0x94addf(0x1a5)),dbBAlifeMember_AD=firebase[_0x94addf(0x1c7)]()[_0x94addf(0x21f)](_0x94addf(0x1c3)),dbBAlifeMember_log=firebase[_0x94addf(0x1c7)]()[_0x94addf(0x21f)](_0x94addf(0x1a0));}function CheckData(){var _0xf5f82c=_0x556c49;dbProfile[_0xf5f82c(0x220)](_0xf5f82c(0x1ca),'==',sessionStorage[_0xf5f82c(0x1f4)](_0xf5f82c(0x200)))[_0xf5f82c(0x1b8)]()[_0xf5f82c(0x1a3)](_0x42a9c7=>{var _0x1251b7=_0xf5f82c;_0x42a9c7[_0x1251b7(0x1d8)](_0x21eb57=>{var _0x25de77=_0x1251b7;CheckFoundData=0x1,EidProfile=_0x21eb57['id'],sDateRegister=_0x21eb57[_0x25de77(0x1a8)]()['DateRegister'],sessionStorage[_0x25de77(0x1ad)](_0x25de77(0x1c5),_0x21eb57[_0x25de77(0x1a8)]()[_0x25de77(0x20b)]),sessionStorage[_0x25de77(0x1ad)](_0x25de77(0x21a),_0x21eb57[_0x25de77(0x1a8)]()[_0x25de77(0x1a6)]),document[_0x25de77(0x19f)](_0x25de77(0x1c2))[_0x25de77(0x19e)]=_0x21eb57[_0x25de77(0x1a8)]()['empID'],document['getElementById']('txtEmpName')[_0x25de77(0x19e)]=_0x21eb57[_0x25de77(0x1a8)]()['empName'],document[_0x25de77(0x19f)]('txtEmpPhone')[_0x25de77(0x19e)]=_0x21eb57[_0x25de77(0x1a8)]()['empPhone'],document[_0x25de77(0x19f)](_0x25de77(0x1b0))['value']=_0x21eb57[_0x25de77(0x1a8)]()[_0x25de77(0x1e5)],_0x21eb57[_0x25de77(0x1a8)]()[_0x25de77(0x217)]==0x1?CheckTNIapprove():NotUserSystem();}),CheckFoundData==0x0&&(document[_0x1251b7(0x19f)]('Loading')[_0x1251b7(0x1de)][_0x1251b7(0x1f3)]='none',document[_0x1251b7(0x19f)]('myRegister')[_0x1251b7(0x1de)][_0x1251b7(0x1f3)]=_0x1251b7(0x1b1));});}function NotUserSystem(){var _0x12da33=_0x556c49;document[_0x12da33(0x19f)](_0x12da33(0x1fc))[_0x12da33(0x1de)]['display']=_0x12da33(0x210),document['getElementById'](_0x12da33(0x228))['style'][_0x12da33(0x1f3)]=_0x12da33(0x1b1);}function CheckTNIdate(_0x29c484){var _0x329879=_0x556c49;dbTNIdate['where'](_0x329879(0x226),'==',_0x29c484)[_0x329879(0x1fd)](0x1)[_0x329879(0x1b8)]()[_0x329879(0x1a3)](_0x3534cf=>{var _0x5602d6=_0x329879;_0x3534cf[_0x5602d6(0x1d8)](_0x2e65dd=>{var _0x2bec1d=_0x5602d6;$(_0x2bec1d(0x1e6))[_0x2bec1d(0x1ec)](_0x2e65dd['data']()[_0x2bec1d(0x1c8)]),$(_0x2bec1d(0x1db))[_0x2bec1d(0x1ec)](_0x2e65dd[_0x2bec1d(0x1a8)]()[_0x2bec1d(0x1d0)]),$('#ReportQ')[_0x2bec1d(0x1ec)](_0x2e65dd[_0x2bec1d(0x1a8)]()['ReportQ']),sessionStorage[_0x2bec1d(0x1ad)](_0x2bec1d(0x1da),_0x2e65dd[_0x2bec1d(0x1a8)]()['DateUpload']),sessionStorage[_0x2bec1d(0x1ad)](_0x2bec1d(0x1c8),_0x2e65dd['data']()['ReportMonth']),sessionStorage['setItem'](_0x2bec1d(0x1d0),_0x2e65dd[_0x2bec1d(0x1a8)]()[_0x2bec1d(0x1d0)]),sessionStorage[_0x2bec1d(0x1ad)](_0x2bec1d(0x19a),_0x2e65dd[_0x2bec1d(0x1a8)]()[_0x2bec1d(0x19a)]),sessionStorage[_0x2bec1d(0x1ad)](_0x2bec1d(0x202),_0x2e65dd[_0x2bec1d(0x1a8)]()['ReportYear']),$(_0x2bec1d(0x1bd))[_0x2bec1d(0x1ec)](sessionStorage['getItem'](_0x2bec1d(0x1da))),sDisplayDate=sessionStorage[_0x2bec1d(0x1f4)](_0x2bec1d(0x1da));});});}var sTNIapprove=0x0;function CheckTNIapprove(){var _0x327754=_0x556c49;dbBAlifeMember[_0x327754(0x220)](_0x327754(0x1c5),'==',parseFloat(sessionStorage[_0x327754(0x1f4)](_0x327754(0x1c5))))[_0x327754(0x1fd)](0x1)[_0x327754(0x1b8)]()[_0x327754(0x1a3)](_0x3334de=>{var _0x2ec3ba=_0x327754;_0x3334de[_0x2ec3ba(0x1d8)](_0x592b08=>{var _0x135f23=_0x2ec3ba;sMemberlog=_0x135f23(0x1b6)+_0x592b08['data']()[_0x135f23(0x20c)],SaveBA_Log(),sCodeName=_0x135f23(0x22c),CheckTNIdate(sCodeName),sTNIapprove=0x1,sessionStorage[_0x135f23(0x1ad)](_0x135f23(0x20c),_0x592b08[_0x135f23(0x1a8)]()[_0x135f23(0x20c)]),sessionStorage[_0x135f23(0x1ad)](_0x135f23(0x1aa),0x1);var _0x358b0a='';_0x358b0a+=_0x135f23(0x224),_0x358b0a+=_0x135f23(0x1fe)+sessionStorage['getItem'](_0x135f23(0x21a))+'</div>',_0x358b0a+=_0x135f23(0x1ab)+sessionStorage['getItem']('EmpGroup')+_0x135f23(0x1a1),_0x358b0a+='<div\x20style=\x22font-size:\x2011px;\x20color:#000000;margin-top:15px;\x22>ทุกเดือนคะแนนจะถูกเปลี่ยนเป็นเงินรางวัลตามเกณฑ์ที่กำหนด<br>ส่วนต่างของคะแนนที่เหลือจะถูกยกไปสะสมต่อในเดือนถัดไป</div>',_0x358b0a+=_0x135f23(0x1b2),_0x358b0a+=_0x135f23(0x22d),_0x358b0a+='<div\x20class=\x22btn-t2\x22\x20onclick=\x22GotoLink()\x22\x20style=\x22margin-top:20px;padding:6px\x2040px;\x22>ดูข้อมูลของ<br>คุณ'+sessionStorage['getItem'](_0x135f23(0x21a))+_0x135f23(0x22f),_0x358b0a+='<div\x20style=\x22height:\x2015px;\x22></div>',_0x358b0a+=_0x135f23(0x22f),$(_0x135f23(0x218))[_0x135f23(0x1ec)](_0x358b0a),document['getElementById'](_0x135f23(0x20d))['style']['display']=_0x135f23(0x1b1);}),sTNIapprove==0x0&&CheckTNIapprove_sbo();});}var sTNIapprove_SBO=0x0;function CheckTNIapprove_sbo(){var _0x21828e=_0x556c49;dbBAlifeMember_SBO[_0x21828e(0x220)](_0x21828e(0x1c5),'==',parseFloat(sessionStorage['getItem']('EmpID')))[_0x21828e(0x1fd)](0x1)[_0x21828e(0x1b8)]()[_0x21828e(0x1a3)](_0x388a5f=>{var _0xcbc1b1=_0x21828e;_0x388a5f[_0xcbc1b1(0x1d8)](_0x153c14=>{var _0xc66354=_0xcbc1b1;sMemberlog='Program\x202\x20-\x20'+_0x153c14[_0xc66354(0x1a8)]()[_0xc66354(0x20c)],SaveBA_Log(),sCodeName=_0xc66354(0x1b4),CheckTNIdate(sCodeName),sTNIapprove_SBO=0x1,sessionStorage['setItem'](_0xc66354(0x1cb),_0x153c14[_0xc66354(0x1a8)]()[_0xc66354(0x20c)]),sessionStorage[_0xc66354(0x1ad)](_0xc66354(0x1b5),0x1);var _0x3a87d1='';_0x3a87d1+=_0xc66354(0x1dd),_0x3a87d1+=_0xc66354(0x227)+sessionStorage[_0xc66354(0x1f4)](_0xc66354(0x21a))+_0xc66354(0x22f),_0x3a87d1+=_0xc66354(0x1ab)+sessionStorage['getItem'](_0xc66354(0x1cb))+_0xc66354(0x1a1),_0x3a87d1+='<div\x20style=\x22font-size:\x2011px;\x20color:#000000;margin-top:15px;\x22>เมื่อสิ้นสุดไตรมาส\x20คะแนนสะสมจะถูกคำนวณเป็นเงินรางวัล\x20กรณีมีคะแนนส่วนต่างจะไม่นำมาคำนวณเป็นรางวัล</div>',_0x3a87d1+='<div><img\x20src=\x22./img/sbo-gif.gif\x22\x20style=\x22width:100%;margin-top:15px;\x22></div>',_0x3a87d1+=_0xc66354(0x22d),_0x3a87d1+='<div\x20class=\x22btn-t2\x22\x20onclick=\x22GotoLink_SBO()\x22\x20style=\x22margin-top:20px;padding:6px\x2040px;\x22>ดูข้อมูลของ<br>คุณ'+sessionStorage['getItem'](_0xc66354(0x21a))+'</div>',_0x3a87d1+=_0xc66354(0x1e2),_0x3a87d1+=_0xc66354(0x22f),$(_0xc66354(0x1e3))['html'](_0x3a87d1),document[_0xc66354(0x19f)](_0xc66354(0x209))[_0xc66354(0x1de)][_0xc66354(0x1f3)]='block';}),sTNIapprove_SBO==0x0&&CheckTNIapprove_BAzh();});}var sTNIapprove_BAzh=0x0;function _0x4aaa(){var _0x73ae6e=['collection','where','135vkisCH','div.com[min=\x22','openWindow','<div><div\x20class=\x22NameLine\x22>ยินดีต้อนรับสู่\x20BA\x20Life\x20Sale\x20Campaign\x20Y2022</div>','New\x20User','CodeName','<div\x20class=\x22NameLine\x22\x20style=\x22color:#0056ff;\x22>','NotPass','BALifeCampaign_SBOZM','<div><img\x20src=\x22./img/rh-gif.gif\x22\x20style=\x22width:100%;margin-top:15px;\x22></div>','retailproject-6f4fc','BALifeCampaign_BBD','<di></div>','Zone\x20Head','</div>','<div\x20style=\x22margin-top:20px;\x22><br><div\x20class=\x22text-waiting\x22>เรียน\x20<font\x20color=\x22#0056ff\x22><b>คุณ','ReportQ','LinePicture','<div\x20class=\x22NameLine\x22>','\x22\x20class=\x22add-profile\x22\x20width=\x22100px\x22></div>','value','getElementById','BAlifeMember_log','\x20Group\x20\x22</div>','G-9SKTRHHSW9','then','47829CWYrex','BAlifeMember_RH','empName','init','data','LineName','EmpLevel','<div\x20style=\x22color:#002d63;\x20font-size:15px;\x20padding:2px\x2010px;font-weight:\x20600;\x22>\x22\x20','EmpLevel_SBOzm','setItem','TNIdate','RH\x20Group','txtEmpGroup','block','<div><img\x20src=\x22./img/bbd.gif\x22\x20style=\x22width:100%;margin-top:15px;\x22></div>','userId','BALifeCampaign_SBO','EmpLevel_SBO','Program\x201\x20-\x20','\x22</div>','get','EmpGroup_BArh','8qNmxHP','</b></font>','22FbKHFo','#BALifeDate','myTimer','getSeconds','id05','home_sbozm.html','txtEmpID','BAlifeMember_AD','11864krNJkf','EmpID','<br><b><font\x20color=\x22#ff0000\x22>คุณไม่ได้รับสิทธิ์ในการเข้าใช้งานเว็บไซต์นี้</font></b></div>','firestore','ReportMonth','EmpSBO_RH','lineID','EmpGroup_SBO','retailproject-6f4fc.appspot.com','EmpGroup_BA','AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE','</div></center>','ReportQMonth','id06','add','20788ZtbBlu','sbo.html','EmpLevel_BArh','#MyProfile','login','forEach','293274AfJsOX','BALifeDate','#ReportQMonth','EmpLevel_BAzh','<div><div\x20class=\x22NameLine\x22\x20style=\x22color:#ffffff;\x22>ยินดีต้อนรับสู่\x20BA\x20Life\x20Sale\x20Campaign\x20Y2022</div>','style','<div\x20class=\x22NameLine\x22\x20style=\x22color:#fff;\x22>','EmpGroup_AD','<div\x20style=\x22font-size:\x2011px;\x20color:#000000;margin-top:15px;\x22>เมื่อสิ้นสุดไตรมาส\x20คะแนนสะสมจะถูกคำนวณเป็นเงินรางวัล\x20กรณีมีคะแนนส่วนต่างจะไม่นำมาคำนวณเป็นรางวัล</div>','<div\x20style=\x22height:\x2015px;\x22></div>','#WelcomePage_SBO','retailproject-6f4fc.firebaseapp.com','empGroup','#ReportMonth','id07','id04','https://line.me','WaitingPage','txtEmpName','html','now','1928574mQSOtG','href','getProfile','Program\x206\x20-\x20Admin','1491QsksIu','display','getItem','txtEmpPhone','getFullYear','id01','displayName','Program\x203\x20-\x20ZH\x20','<div><div\x20class=\x22NameLine\x22\x20style=\x22color:#f68b1f;\x22>ยินดีต้อนรับสู่\x20BA\x20Life\x20Sale\x20Campaign\x20Y2022</div>','<div\x20class=\x22btn-t2\x22\x20onclick=\x22GotoLink_SBOZM()\x22\x20style=\x22margin-top:20px;padding:6px\x2040px;\x22>ดูข้อมูลของ<br>คุณ','Loading','limit','<div\x20class=\x22NameLine\x22\x20style=\x22color:#ffffff;\x22>','EmpName_Admin','LineID','home.html','ReportYear','<div><img\x20src=\x22./img/report-gif.gif\x22\x20style=\x22width:100%;margin-top:15px;\x22></div>','Admin\x20Group','#WelcomePage_BArh','append','\x20\x22</div>','<div\x20class=\x22btn-t2\x22\x20onclick=\x22GotoLink_BAzh()\x22\x20style=\x22margin-top:20px;padding:6px\x2040px;\x22>ดูข้อมูลของ<br>คุณ','id03','initializeApp','empID','EmpGroup','id02','BAlifeMember','860630YBXuQZ','none','<div><img\x20src=\x22./img/BAzh-gif.gif\x22\x20style=\x22width:100%;margin-top:15px;\x22></div>','round','1244505DNxVnC','#MyWatingPage','653667385625','home_rh.html','statusconfirm','#WelcomePage','Program\x205\x20-\x20ZM\x20','EmpName','Program\x204\x20-\x20RH\x20','EmpGroup_SBOzm','#WelcomePage_BAzh','<div\x20style=\x22font-size:\x2011px;\x20color:#000000;margin-top:15px;\x22>ทุกเดือนคะแนนจะถูกเปลี่ยนเป็นเงินรางวัลตามเกณฑ์ที่กำหนด<br>ส่วนต่างของคะแนนที่เหลือจะถูกยกไปสะสมต่อในเดือนถัดไป</div>'];_0x4aaa=function(){return _0x73ae6e;};return _0x4aaa();}function CheckTNIapprove_BAzh(){var _0x1e3508=_0x556c49;dbBAlifeMember_BAzh[_0x1e3508(0x220)]('EmpID','==',parseFloat(sessionStorage['getItem'](_0x1e3508(0x1c5))))[_0x1e3508(0x1fd)](0x1)[_0x1e3508(0x1b8)]()[_0x1e3508(0x1a3)](_0x3df6eb=>{var _0x237ee4=_0x1e3508;_0x3df6eb[_0x237ee4(0x1d8)](_0x570bed=>{var _0x327ebe=_0x237ee4;sMemberlog=_0x327ebe(0x1f9)+_0x570bed[_0x327ebe(0x1a8)]()['EmpGroup'],SaveBA_Log(),sCodeName=_0x327ebe(0x22c),CheckTNIdate(sCodeName),sTNIapprove_BAzh=0x1,sessionStorage['setItem']('EmpGroup_BA',_0x570bed[_0x327ebe(0x1a8)]()[_0x327ebe(0x20c)]),sessionStorage[_0x327ebe(0x1ad)]('EmpGroup_BAzh',_0x327ebe(0x22e)),sessionStorage[_0x327ebe(0x1ad)](_0x327ebe(0x1dc),0x1);var _0x1fe7e3='';_0x1fe7e3+=_0x327ebe(0x1fa),_0x1fe7e3+=_0x327ebe(0x1fe)+sessionStorage[_0x327ebe(0x1f4)]('EmpName')+_0x327ebe(0x22f),_0x1fe7e3+='<div\x20style=\x22color:#002d63;\x20font-size:15px;\x20padding:2px\x2010px;font-weight:\x20600;\x22>\x22\x20'+sessionStorage[_0x327ebe(0x1f4)]('EmpGroup_BAzh')+_0x327ebe(0x207),_0x1fe7e3+=_0x327ebe(0x21e),_0x1fe7e3+=_0x327ebe(0x211),_0x1fe7e3+=_0x327ebe(0x22d),_0x1fe7e3+=_0x327ebe(0x208)+sessionStorage[_0x327ebe(0x1f4)]('EmpName')+_0x327ebe(0x22f),_0x1fe7e3+=_0x327ebe(0x1e2),_0x1fe7e3+='</div>',$(_0x327ebe(0x21d))[_0x327ebe(0x1ec)](_0x1fe7e3),document[_0x327ebe(0x19f)](_0x327ebe(0x1e8))[_0x327ebe(0x1de)]['display']=_0x327ebe(0x1b1);}),sTNIapprove_BAzh==0x0&&CheckTNIapprove_BArh();});}var sTNIapprove_BArh=0x0;function CheckTNIapprove_BArh(){var _0x58aafb=_0x556c49;dbBAlifeMember_BArh[_0x58aafb(0x220)](_0x58aafb(0x1c5),'==',parseFloat(sessionStorage['getItem']('EmpID')))[_0x58aafb(0x1fd)](0x1)[_0x58aafb(0x1b8)]()[_0x58aafb(0x1a3)](_0x282c8d=>{_0x282c8d['forEach'](_0x38c34d=>{var _0x7c1381=_0x48e1;sMemberlog=_0x7c1381(0x21b)+_0x38c34d[_0x7c1381(0x1a8)]()[_0x7c1381(0x20c)],SaveBA_Log(),sCodeName='BALifeCampaign_BBD',CheckTNIdate(sCodeName),sTNIapprove_BArh=0x1,sessionStorage['setItem'](_0x7c1381(0x1cd),_0x38c34d[_0x7c1381(0x1a8)]()[_0x7c1381(0x20c)]),sessionStorage[_0x7c1381(0x1ad)](_0x7c1381(0x1b9),_0x7c1381(0x1af)),sessionStorage['setItem'](_0x7c1381(0x1d5),0x1);var _0x38975b='';_0x38975b+=_0x7c1381(0x1fa),_0x38975b+=_0x7c1381(0x227)+sessionStorage[_0x7c1381(0x1f4)](_0x7c1381(0x21a))+'</div>',_0x38975b+=_0x7c1381(0x1ab)+sessionStorage[_0x7c1381(0x1f4)](_0x7c1381(0x1b9))+'\x20\x22</div>',_0x38975b+=_0x7c1381(0x21e),_0x38975b+=_0x7c1381(0x22a),_0x38975b+=_0x7c1381(0x22d),_0x38975b+='<div\x20class=\x22btn-t2\x22\x20onclick=\x22GotoLink_BArh()\x22\x20style=\x22margin-top:20px;padding:6px\x2040px;\x22>ดูข้อมูลของ<br>คุณ'+sessionStorage[_0x7c1381(0x1f4)](_0x7c1381(0x21a))+'</div>',_0x38975b+='<div\x20style=\x22height:\x2015px;\x22></div>',_0x38975b+='</div>',$(_0x7c1381(0x205))[_0x7c1381(0x1ec)](_0x38975b),document[_0x7c1381(0x19f)]('id05')[_0x7c1381(0x1de)][_0x7c1381(0x1f3)]=_0x7c1381(0x1b1);}),sTNIapprove_BArh==0x0&&CheckTNIapprove_sboZM();});}var sTNIapprove_SBOZM=0x0;function CheckTNIapprove_sboZM(){var _0x497b6b=_0x556c49;dbBAlifeMember_SBOZM[_0x497b6b(0x220)]('EmpID','==',parseFloat(sessionStorage['getItem'](_0x497b6b(0x1c5))))[_0x497b6b(0x1fd)](0x1)[_0x497b6b(0x1b8)]()['then'](_0x1781f3=>{_0x1781f3['forEach'](_0x172119=>{var _0x2bb937=_0x48e1;sMemberlog=_0x2bb937(0x219)+_0x172119[_0x2bb937(0x1a8)]()[_0x2bb937(0x20c)],SaveBA_Log(),sCodeName=_0x2bb937(0x1b4),CheckTNIdate(sCodeName),sTNIapprove_SBOZM=0x1,sessionStorage[_0x2bb937(0x1ad)]('EmpGroup_SBOzm','ZM-SBO\x20Group'),sessionStorage[_0x2bb937(0x1ad)]('EmpGroup_SBO',_0x172119[_0x2bb937(0x1a8)]()[_0x2bb937(0x20c)]),sessionStorage[_0x2bb937(0x1ad)](_0x2bb937(0x1c9),_0x172119[_0x2bb937(0x1a8)]()['EmpRH']),sessionStorage[_0x2bb937(0x1ad)](_0x2bb937(0x1ac),0x1);var _0x5263b9='';_0x5263b9+='<div><div\x20class=\x22NameLine\x22\x20style=\x22color:#f68b1f;\x22>ยินดีต้อนรับสู่\x20BA\x20Life\x20Sale\x20Campaign\x20Y2022</div>',_0x5263b9+=_0x2bb937(0x1df)+sessionStorage[_0x2bb937(0x1f4)]('EmpName')+_0x2bb937(0x22f),_0x5263b9+=_0x2bb937(0x1ab)+sessionStorage[_0x2bb937(0x1f4)](_0x2bb937(0x21c))+_0x2bb937(0x1b7),_0x5263b9+=_0x2bb937(0x1e1),_0x5263b9+='<div><img\x20src=\x22./img/admin-gif.gif\x22\x20style=\x22width:100%;margin-top:15px;\x22></div>',_0x5263b9+=_0x2bb937(0x22d),_0x5263b9+=_0x2bb937(0x1fb)+sessionStorage[_0x2bb937(0x1f4)]('EmpName')+_0x2bb937(0x22f),_0x5263b9+=_0x2bb937(0x1e2),_0x5263b9+='</div>',$('#WelcomePage_SBOZM')[_0x2bb937(0x1ec)](_0x5263b9),document[_0x2bb937(0x19f)](_0x2bb937(0x1d1))[_0x2bb937(0x1de)][_0x2bb937(0x1f3)]=_0x2bb937(0x1b1);}),sTNIapprove_SBOZM==0x0&&CheckTNIapprove_AD();});}var sTNIapprove_AD=0x0;function CheckTNIapprove_AD(){var _0x442d94=_0x556c49;dbBAlifeMember_AD[_0x442d94(0x220)](_0x442d94(0x1c5),'==',parseFloat(sessionStorage[_0x442d94(0x1f4)]('EmpID')))[_0x442d94(0x1fd)](0x1)[_0x442d94(0x1b8)]()[_0x442d94(0x1a3)](_0x157195=>{var _0x23ffa5=_0x442d94;_0x157195[_0x23ffa5(0x1d8)](_0x26dfe1=>{var _0x50f4f8=_0x23ffa5;sMemberlog=_0x50f4f8(0x1f1),SaveBA_Log(),sCodeName=_0x50f4f8(0x22c),CheckTNIdate(sCodeName),sTNIapprove_AD=0x1,sessionStorage[_0x50f4f8(0x1ad)](_0x50f4f8(0x1e0),_0x50f4f8(0x204)),sessionStorage['setItem']('EmpID_Admin',_0x26dfe1[_0x50f4f8(0x1a8)]()['EmpID']),sessionStorage[_0x50f4f8(0x1ad)](_0x50f4f8(0x1ff),_0x26dfe1[_0x50f4f8(0x1a8)]()['EmpName']);var _0x1dbe87='';_0x1dbe87+='<div><div\x20class=\x22NameLine\x22\x20style=\x22color:#f68b1f;\x22>ยินดีต้อนรับสู่\x20BA\x20Life\x20Sale\x20Campaign\x20Y2022</div>',_0x1dbe87+=_0x50f4f8(0x1df)+sessionStorage['getItem'](_0x50f4f8(0x21a))+'</div>',_0x1dbe87+=_0x50f4f8(0x1ab)+sessionStorage[_0x50f4f8(0x1f4)]('EmpGroup_AD')+_0x50f4f8(0x1b7),_0x1dbe87+=_0x50f4f8(0x21e),_0x1dbe87+=_0x50f4f8(0x203),_0x1dbe87+=_0x50f4f8(0x22d),_0x1dbe87+='<div\x20class=\x22btn-t2\x22\x20onclick=\x22GotoLink_AD()\x22\x20style=\x22margin-top:20px;padding:6px\x2040px;\x22>ดูข้อมูลของ<br>คุณ'+sessionStorage['getItem'](_0x50f4f8(0x21a))+_0x50f4f8(0x22f),_0x1dbe87+=_0x50f4f8(0x1e2),_0x1dbe87+=_0x50f4f8(0x22f),$('#WelcomePage_Admin')[_0x50f4f8(0x1ec)](_0x1dbe87),document[_0x50f4f8(0x19f)]('id07')[_0x50f4f8(0x1de)][_0x50f4f8(0x1f3)]=_0x50f4f8(0x1b1);}),sTNIapprove_AD==0x0&&WaitingPage();});}function WaitingPage(){var _0x5ad9e7=_0x556c49,_0x5890cd='';_0x5890cd+='<center><div><img\x20src=\x22./img/stop.png\x22\x20width=\x22250px;\x22></div>',_0x5890cd+=_0x5ad9e7(0x199)+sessionStorage[_0x5ad9e7(0x1f4)](_0x5ad9e7(0x21a))+_0x5ad9e7(0x1bb),_0x5890cd+=_0x5ad9e7(0x1c6),_0x5890cd+=_0x5ad9e7(0x1cf),$(_0x5ad9e7(0x214))[_0x5ad9e7(0x1ec)](_0x5890cd),document[_0x5ad9e7(0x19f)]('Loading')[_0x5ad9e7(0x1de)][_0x5ad9e7(0x1f3)]=_0x5ad9e7(0x210),document[_0x5ad9e7(0x19f)](_0x5ad9e7(0x1ea))[_0x5ad9e7(0x1de)][_0x5ad9e7(0x1f3)]=_0x5ad9e7(0x1b1);}function ClickSaveProfile(){var _0x269ef5=_0x556c49,_0x3a2560=0x0;stxtEmpID=document[_0x269ef5(0x19f)](_0x269ef5(0x1c2))[_0x269ef5(0x19e)],stxtEmpName=document[_0x269ef5(0x19f)](_0x269ef5(0x1eb))[_0x269ef5(0x19e)],stxtEmpPhone=document['getElementById'](_0x269ef5(0x1f5))[_0x269ef5(0x19e)],stxtEmpGroup=document[_0x269ef5(0x19f)]('txtEmpGroup')['value'],stxtEmpID!==null&&stxtEmpID!==''&&(_0x3a2560=_0x3a2560+0x1),stxtEmpName!==null&&stxtEmpName!==''&&(_0x3a2560=_0x3a2560+0x1),stxtEmpPhone!==null&&stxtEmpPhone!==''&&(_0x3a2560=_0x3a2560+0x1),stxtEmpGroup!==null&&stxtEmpGroup!==''&&(_0x3a2560=_0x3a2560+0x1),_0x3a2560==0x4&&SaveData();}function SaveData(){var _0x3ea8ed=_0x556c49;NewDate(),EidProfile==''&&(alert(_0x3ea8ed(0x225)),dbProfile[_0x3ea8ed(0x1d2)]({'lineID':sessionStorage[_0x3ea8ed(0x1f4)]('LineID'),'lineName':sessionStorage['getItem'](_0x3ea8ed(0x1a9)),'linePicture':sessionStorage[_0x3ea8ed(0x1f4)](_0x3ea8ed(0x19b)),'empID':document['getElementById'](_0x3ea8ed(0x1c2))['value'],'empName':document[_0x3ea8ed(0x19f)]('txtEmpName')[_0x3ea8ed(0x19e)],'empPhone':document[_0x3ea8ed(0x19f)](_0x3ea8ed(0x1f5))[_0x3ea8ed(0x19e)],'empGroup':document['getElementById'](_0x3ea8ed(0x1b0))['value'],'empRH':document[_0x3ea8ed(0x19f)]('txtEmpGroup')[_0x3ea8ed(0x19e)],'statusconfirm':0x0,'statusedit':0x1,'statuspass':0x0,'empAddress':'','lastcheckin':'','memo':'','empBr':'','DateRegister':dateString,'RegisterDate':dateString})),CheckData(),document[_0x3ea8ed(0x19f)]('myRegister')[_0x3ea8ed(0x1de)][_0x3ea8ed(0x1f3)]=_0x3ea8ed(0x210),document[_0x3ea8ed(0x19f)](_0x3ea8ed(0x1be))[_0x3ea8ed(0x1de)][_0x3ea8ed(0x1f3)]=_0x3ea8ed(0x1b1);}function GotoLink(){var _0x84627d=_0x556c49;location['href']=_0x84627d(0x201);}function GotoLink_SBO(){var _0x3ea0c4=_0x556c49;location[_0x3ea0c4(0x1ef)]=_0x3ea0c4(0x1d4);}function GotoLink_BAzh(){var _0x241757=_0x556c49;location[_0x241757(0x1ef)]='home_zh.html';}function GotoLink_BArh(){var _0x3b1ac8=_0x556c49;location[_0x3b1ac8(0x1ef)]=_0x3b1ac8(0x216);}function GotoLink_SBOZM(){var _0x5e5614=_0x556c49;location[_0x5e5614(0x1ef)]=_0x5e5614(0x1c1);}function GotoLink_AD(){var _0x2de503=_0x556c49;location[_0x2de503(0x1ef)]='ad_rh.html';}function SaveBA_Log(){var _0x3e7018=_0x556c49;NewDate();var _0x406520=Math[_0x3e7018(0x212)](Date[_0x3e7018(0x1ed)]()/0x3e8);dbBAlifeMember_log[_0x3e7018(0x1d2)]({'LineID':sessionStorage[_0x3e7018(0x1f4)]('LineID'),'LineName':sessionStorage['getItem'](_0x3e7018(0x1a9)),'LinePicture':sessionStorage[_0x3e7018(0x1f4)]('LinePicture'),'EmpID':sessionStorage[_0x3e7018(0x1f4)](_0x3e7018(0x1c5)),'EmpName':sessionStorage[_0x3e7018(0x1f4)](_0x3e7018(0x21a)),'PageVisit':sMemberlog,'LogDateTime':dateString,'LogTimeStamp':_0x406520});}function NewDate(){var _0x177c6d=_0x556c49,_0x7142a1=new Date(),_0x38b9cf=_0x7142a1['getDate']()+'',_0xcc295b=_0x7142a1['getMonth']()+0x1+'',_0x3f22a5=_0x7142a1[_0x177c6d(0x1f6)]()+'',_0x1ea246=_0x7142a1['getHours']()+'',_0x18c9f3=_0x7142a1['getMinutes']()+'',_0xcfe44f=_0x7142a1[_0x177c6d(0x1bf)]()+'',_0x214a48=_0x1ea246>=0xc?'PM':'AM';_0x38b9cf=checkZero(_0x38b9cf),_0xcc295b=checkZero(_0xcc295b),_0x3f22a5=checkZero(_0x3f22a5),_0x1ea246=checkZero(_0x1ea246),_0x18c9f3=checkZero(_0x18c9f3),_0xcfe44f=checkZero(_0xcfe44f),dateString=_0x38b9cf+'/'+_0xcc295b+'/'+_0x3f22a5+'\x20'+_0x1ea246+':'+_0x18c9f3+':'+_0xcfe44f+'\x20'+_0x214a48;}function checkZero(_0x103d0){return _0x103d0['length']==0x1&&(_0x103d0='0'+_0x103d0),_0x103d0;}function CloseAll(){var _0x544ac6=_0x556c49;document[_0x544ac6(0x19f)](_0x544ac6(0x1f7))[_0x544ac6(0x1de)][_0x544ac6(0x1f3)]='none',document[_0x544ac6(0x19f)](_0x544ac6(0x20d))[_0x544ac6(0x1de)][_0x544ac6(0x1f3)]=_0x544ac6(0x210),document[_0x544ac6(0x19f)](_0x544ac6(0x209))[_0x544ac6(0x1de)][_0x544ac6(0x1f3)]=_0x544ac6(0x210),document[_0x544ac6(0x19f)]('id04')[_0x544ac6(0x1de)][_0x544ac6(0x1f3)]=_0x544ac6(0x210),document[_0x544ac6(0x19f)](_0x544ac6(0x1c0))[_0x544ac6(0x1de)][_0x544ac6(0x1f3)]=_0x544ac6(0x210),document[_0x544ac6(0x19f)]('id06')[_0x544ac6(0x1de)][_0x544ac6(0x1f3)]=_0x544ac6(0x210),document[_0x544ac6(0x19f)](_0x544ac6(0x1e7))['style']['display']=_0x544ac6(0x210),document[_0x544ac6(0x19f)](_0x544ac6(0x228))[_0x544ac6(0x1de)][_0x544ac6(0x1f3)]=_0x544ac6(0x210);}
+var i = 0;
+var stxtEmpID = "";
+var stxtEmpName = "";
+var stxtEmpPhone = "";
+var stxtEmpGroup = "";
+var dbProfile = "";
+var CheckFoundData = 0;
+var EidProfile = "";
+var dateString = "";
+var sDateRegister = "";
+var sCheckRedeemPoint = 0;
+var sCheckTNIapprove = 0
+var sCheckLevel = 0;
+var sCodeName = "";
+var sDisplayDate = "";
+var sMemberlog = "";
+const x = document.querySelectorAll(`div.com[min="${i}"]`);
+
+
+
+$(document).ready(function () {
+  //sessionStorage.clear();
+
+/*
+  var str = "";
+  var sLineID = "Ua6b6bf745bd9bfd01a180de1a05c23b3";
+  var sLineName = "Website";
+  var sLinePicture = "https://profile.line-scdn.net/0hoLlg-mNNMGNRHiaTpMdPNG1bPg4mMDYrKX8qVnIYOgYpe3QwbCp2AXVKaVN_fnMzOC16V3NMagF8";
+  sessionStorage.setItem("LineID", sLineID);
+  sessionStorage.setItem("LineName", sLineName);
+  sessionStorage.setItem("LinePicture", sLinePicture);
+  str += '<div><img src="'+ sessionStorage.getItem("LinePicture") +'" class="add-profile" width="100px"></div>';
+  str += '<div class="NameLine">'+ sessionStorage.getItem("LineName")+'</div>';
+  $("#MyProfile").html(str);  
+  Connect_DB();
+*/  
+  
+  main();
+});
+
+
+
+async function main() {
+  await liff.init({ liffId: "1655966947-jgGrdY14" });
+  document.getElementById("isLoggedIn").append(liff.isLoggedIn());
+  if(liff.isLoggedIn()) {
+    getUserProfile();
+  } else {
+    liff.login();
+  }
+}
+
+
+async function getUserProfile() {
+  var str = "";
+  const profile = await liff.getProfile();
+  sessionStorage.setItem("LineID", profile.userId);
+  sessionStorage.setItem("LineName", profile.displayName);
+  sessionStorage.setItem("LinePicture", profile.pictureUrl);
+  str += '<div><img src="'+ sessionStorage.getItem("LinePicture") +'" class="add-profile" width="100px"></div>';
+  str += '<div class="NameLine">'+ sessionStorage.getItem("LineName")+'</div>';
+  $("#MyProfile").html(str);  
+  Connect_DB();
+}
+
+
+function openWindow() {
+  liff.openWindow({
+    url: "https://line.me",
+    external: true     
+  })
+}
+
+
+function Connect_DB() {
+  var firebaseConfig = {
+    apiKey: "AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE",
+    authDomain: "retailproject-6f4fc.firebaseapp.com",
+    projectId: "retailproject-6f4fc",
+    storageBucket: "retailproject-6f4fc.appspot.com",
+    messagingSenderId: "653667385625",
+    appId: "1:653667385625:web:a5aed08500de80839f0588",
+    measurementId: "G-9SKTRHHSW9"
+  };
+  firebase.initializeApp(firebaseConfig);
+  dbProfile = firebase.firestore().collection("CheckProfile");
+  dbTNIdate = firebase.firestore().collection("TNIdate");
+  dbBAlifeMember = firebase.firestore().collection("BAlifeMember");
+  dbBAlifeMember_SBO = firebase.firestore().collection("BALifeCampaign_SBO");
+  dbBAlifeMember_SBOZM = firebase.firestore().collection("BALifeCampaign_SBOZM");
+  dbBAlifeMember_BAzh = firebase.firestore().collection("BAlifeMember_ZH");
+  dbBAlifeMember_BArh = firebase.firestore().collection("BAlifeMember_RH");
+  dbBAlifeMember_AD = firebase.firestore().collection("BAlifeMember_AD");
+  dbBAlifeMember_log = firebase.firestore().collection("BAlifeMember_log");
+  CheckData();
+}
+
+
+
+var CheckFoundData = 0;
+function CheckData() {
+  //console.log(sessionStorage.getItem("LineID"));
+  dbProfile.where('lineID','==',sessionStorage.getItem("LineID"))
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      CheckFoundData = 1;
+      sessionStorage.setItem("EmpName", doc.data().empName);
+      if(doc.data().statusconfirm==1) {
+        EidProfile = doc.id;
+        sDateRegister = doc.data().DateRegister;
+        sessionStorage.setItem("EmpID", doc.data().empID);
+        document.getElementById("txtEmpID").value = doc.data().empID;
+        document.getElementById("txtEmpName").value = doc.data().empName;
+        document.getElementById("txtEmpPhone").value = doc.data().empPhone;
+        document.getElementById("txtEmpGroup").value = doc.data().empGroup;
+        CheckTNIapprove();
+      } else {
+        CheckFoundData = doc.data().statusconfirm;
+        WaitingPage();
+      }
+    });
+    if(CheckFoundData==0) {
+      document.getElementById('Loading').style.display='none';
+      document.getElementById('myTimer').style.display='none';
+      document.getElementById('WaitingPage').style.display='none';
+      document.getElementById('myRegister').style.display='block';
+    }
+  });
+}
+
+
+/*
+var CheckFoundData = 0;
+function CheckData() {
+  //console.log(sessionStorage.getItem("LineID"));
+  dbProfile.where('lineID','==',sessionStorage.getItem("LineID"))
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      CheckFoundData = 1;
+      EidProfile = doc.id;
+      sDateRegister = doc.data().DateRegister;
+      sessionStorage.setItem("EmpID", doc.data().empID);
+      sessionStorage.setItem("EmpName", doc.data().empName);
+      document.getElementById("txtEmpID").value = doc.data().empID;
+      document.getElementById("txtEmpName").value = doc.data().empName;
+      document.getElementById("txtEmpPhone").value = doc.data().empPhone;
+      document.getElementById("txtEmpGroup").value = doc.data().empGroup;
+      if(doc.data().statusconfirm==1) {
+        CheckTNIapprove();
+      } else {
+        CheckFoundData = doc.data().statusconfirm;
+        WaitingPage();
+      }
+    });
+    if(CheckFoundData==0) {
+      document.getElementById('Loading').style.display='none';
+      document.getElementById('WaitingPage').style.display='none';
+      document.getElementById('myRegister').style.display='block';
+    }
+  });
+}
+*/
+
+
+
+
+/*
+
+function NotUserSystem() {
+  document.getElementById('Loading').style.display='none';
+  document.getElementById('NotPass').style.display='block';
+}
+*/
+
+function CheckTNIdate(x) {
+  dbTNIdate.where('CodeName','==',x)
+  .limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      $("#ReportMonth").html(doc.data().ReportMonth);  
+      $("#ReportQMonth").html(doc.data().ReportQMonth);  
+      $("#ReportQ").html(doc.data().ReportQ);  
+      sessionStorage.setItem("BALifeDate", doc.data().DateUpload);
+      sessionStorage.setItem("ReportMonth", doc.data().ReportMonth);
+      sessionStorage.setItem("ReportQMonth", doc.data().ReportQMonth);
+      sessionStorage.setItem("ReportQ", doc.data().ReportQ);
+      sessionStorage.setItem("ReportYear", doc.data().ReportYear);
+      $("#BALifeDate").html(sessionStorage.getItem("BALifeDate"));  
+      sDisplayDate = sessionStorage.getItem("BALifeDate");
+    });
+  });
+}
+
+
+var sTNIapprove = 0;
+function CheckTNIapprove() {
+  //alert("pass"+sessionStorage.getItem("EmpID"));
+  dbBAlifeMember.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID")))
+  .limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      sMemberlog = "Program 1 - "+doc.data().EmpGroup;
+      SaveBA_Log();
+      sCodeName = "BALifeCampaign_BBD";
+      CheckTNIdate(sCodeName);
+      sTNIapprove = 1
+      sessionStorage.setItem("EmpGroup", doc.data().EmpGroup);
+      sessionStorage.setItem("EmpLevel", 1);
+      var str = "";
+      str += '<div><div class="NameLine">ยินดีต้อนรับสู่ BA Life Sale Campaign Y2022</div>';
+      str += '<div class="NameLine" style="color:#ffffff;">'+ sessionStorage.getItem("EmpName") +'</div>';
+      str += '<div style="color:#002d63; font-size:15px; padding:2px 10px;font-weight: 600;">" '+ sessionStorage.getItem("EmpGroup") +' Group "</div>';
+      str += '<div style="font-size: 11px; color:#000000;margin-top:15px;">ทุกเดือนคะแนนจะถูกเปลี่ยนเป็นเงินรางวัลตามเกณฑ์ที่กำหนด<br>ส่วนต่างของคะแนนที่เหลือจะถูกยกไปสะสมต่อในเดือนถัดไป</div>';
+      str += '<div><img src="./img/bbd.gif" style="width:100%;margin-top:15px;"></div>';
+      str += '<di></div>';
+      str += '<div class="btn-t2" onclick="GotoLink()" style="margin-top:20px;padding:6px 40px;">ดูข้อมูลของ<br>คุณ'+ sessionStorage.getItem("EmpName") +'</div>';
+      str += '<div style="height: 15px;"></div>';
+      str += '</div>';
+      $("#WelcomePage").html(str);  
+      document.getElementById('id02').style.display='block';
+    });
+    if(sTNIapprove==0) {
+       CheckTNIapprove_sbo();
+    }
+  });
+}
+
+
+
+var sTNIapprove_SBO = 0;
+function CheckTNIapprove_sbo() {
+      //alert("pass"+sessionStorage.getItem("EmpID"));
+  dbBAlifeMember_SBO.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID")))
+  .limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      sMemberlog = "Program 2 - "+doc.data().EmpGroup;
+      SaveBA_Log();
+      sCodeName = "BALifeCampaign_SBO";
+      CheckTNIdate(sCodeName);
+      sTNIapprove_SBO = 1
+      sessionStorage.setItem("EmpGroup_SBO", doc.data().EmpGroup);
+      sessionStorage.setItem("EmpLevel_SBO", 1);
+      //alert(sDisplayDate);
+      var str = "";
+      str += '<div><div class="NameLine" style="color:#ffffff;">ยินดีต้อนรับสู่ BA Life Sale Campaign Y2022</div>';
+      str += '<div class="NameLine" style="color:#0056ff;">'+ sessionStorage.getItem("EmpName") +'</div>';
+      str += '<div style="color:#002d63; font-size:15px; padding:2px 10px;font-weight: 600;">" '+ sessionStorage.getItem("EmpGroup_SBO") +' Group "</div>';
+      //str += '<div style="font-weight:600;color:#002d63;">'+ sessionStorage.getItem("BALifeDate") +'</div>';
+      str += '<div style="font-size: 11px; color:#000000;margin-top:15px;">เมื่อสิ้นสุดไตรมาส คะแนนสะสมจะถูกคำนวณเป็นเงินรางวัล กรณีมีคะแนนส่วนต่างจะไม่นำมาคำนวณเป็นรางวัล</div>';
+      str += '<div><img src="./img/sbo-gif.gif" style="width:100%;margin-top:15px;"></div>';
+      str += '<di></div>';
+      str += '<div class="btn-t2" onclick="GotoLink_SBO()" style="margin-top:20px;padding:6px 40px;">ดูข้อมูลของ<br>คุณ'+ sessionStorage.getItem("EmpName") +'</div>';
+      str += '<div style="height: 15px;"></div>';
+      str += '</div>';
+      $("#WelcomePage_SBO").html(str);  
+      document.getElementById('id03').style.display='block';
+    });
+    if(sTNIapprove_SBO==0) {
+      CheckTNIapprove_BAzh();
+      //WaitingPage();
+    }
+  });
+}
+
+
+
+var sTNIapprove_BAzh = 0;
+function CheckTNIapprove_BAzh() {
+  dbBAlifeMember_BAzh.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID")))
+  .limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      sMemberlog = "Program 3 - ZH "+doc.data().EmpGroup;
+      SaveBA_Log();
+      sCodeName = "BALifeCampaign_BBD";
+      CheckTNIdate(sCodeName);
+      sTNIapprove_BAzh = 1
+      sessionStorage.setItem("EmpGroup_BA", doc.data().EmpGroup);
+      sessionStorage.setItem("EmpGroup_BAzh", "Zone Head");
+      sessionStorage.setItem("EmpLevel_BAzh", 1);
+      var str = "";
+      str += '<div><div class="NameLine" style="color:#f68b1f;">ยินดีต้อนรับสู่ BA Life Sale Campaign Y2022</div>';
+      str += '<div class="NameLine" style="color:#ffffff;">'+ sessionStorage.getItem("EmpName") +'</div>';
+      str += '<div style="color:#002d63; font-size:15px; padding:2px 10px;font-weight: 600;">" '+ sessionStorage.getItem("EmpGroup_BAzh") +' "</div>';
+      str += '<div style="font-size: 11px; color:#000000;margin-top:15px;">ทุกเดือนคะแนนจะถูกเปลี่ยนเป็นเงินรางวัลตามเกณฑ์ที่กำหนด<br>ส่วนต่างของคะแนนที่เหลือจะถูกยกไปสะสมต่อในเดือนถัดไป</div>';
+      str += '<div><img src="./img/BAzh-gif.gif" style="width:100%;margin-top:15px;"></div>';
+      str += '<di></div>';
+      str += '<div class="btn-t2" onclick="GotoLink_BAzh()" style="margin-top:20px;padding:6px 40px;">ดูข้อมูลของ<br>คุณ'+ sessionStorage.getItem("EmpName") +'</div>';
+      str += '<div style="height: 15px;"></div>';
+      str += '</div>';
+      $("#WelcomePage_BAzh").html(str);  
+      document.getElementById('id04').style.display='block';
+    });
+    if(sTNIapprove_BAzh==0) {
+      CheckTNIapprove_BArh();
+      //WaitingPage()
+    }
+  });
+}
+
+
+var sTNIapprove_BArh = 0;
+function CheckTNIapprove_BArh() {
+      //alert("pass"+sessionStorage.getItem("EmpID"));
+  dbBAlifeMember_BArh.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID")))
+  .limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      sMemberlog = "Program 4 - RH "+doc.data().EmpGroup;
+      SaveBA_Log();
+      sCodeName = "BALifeCampaign_BBD";
+      CheckTNIdate(sCodeName);
+      sTNIapprove_BArh = 1
+      sessionStorage.setItem("EmpGroup_BA", doc.data().EmpGroup);
+      sessionStorage.setItem("EmpGroup_BArh", "RH Group");
+      sessionStorage.setItem("EmpLevel_BArh", 1);
+      var str = "";
+      str += '<div><div class="NameLine" style="color:#f68b1f;">ยินดีต้อนรับสู่ BA Life Sale Campaign Y2022</div>';
+      str += '<div class="NameLine" style="color:#0056ff;">'+ sessionStorage.getItem("EmpName") +'</div>';
+      str += '<div style="color:#002d63; font-size:15px; padding:2px 10px;font-weight: 600;">" '+ sessionStorage.getItem("EmpGroup_BArh") +' "</div>';
+      str += '<div style="font-size: 11px; color:#000000;margin-top:15px;">ทุกเดือนคะแนนจะถูกเปลี่ยนเป็นเงินรางวัลตามเกณฑ์ที่กำหนด<br>ส่วนต่างของคะแนนที่เหลือจะถูกยกไปสะสมต่อในเดือนถัดไป</div>';
+      str += '<div><img src="./img/rh-gif.gif" style="width:100%;margin-top:15px;"></div>';
+      str += '<di></div>';
+      str += '<div class="btn-t2" onclick="GotoLink_BArh()" style="margin-top:20px;padding:6px 40px;">ดูข้อมูลของ<br>คุณ'+ sessionStorage.getItem("EmpName") +'</div>';
+      str += '<div style="height: 15px;"></div>';
+      str += '</div>';
+      $("#WelcomePage_BArh").html(str);  
+      document.getElementById('id05').style.display='block';
+    });
+    if(sTNIapprove_BArh==0) {
+      CheckTNIapprove_sboZM();
+    }
+  });
+}
+
+
+
+var sTNIapprove_SBOZM = 0;
+function CheckTNIapprove_sboZM() {
+      //alert("pass"+sessionStorage.getItem("EmpID"));
+  dbBAlifeMember_SBOZM.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID")))
+  .limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      sMemberlog = "Program 5 - ZM "+doc.data().EmpGroup;
+      SaveBA_Log();
+      sCodeName = "BALifeCampaign_SBO";
+      CheckTNIdate(sCodeName);
+      sTNIapprove_SBOZM = 1
+      sessionStorage.setItem("EmpGroup_SBOzm", "ZM-SBO Group");
+      sessionStorage.setItem("EmpGroup_SBO", doc.data().EmpGroup);
+      sessionStorage.setItem("EmpSBO_RH", doc.data().EmpRH);
+      sessionStorage.setItem("EmpLevel_SBOzm", 1);
+      //alert(sDisplayDate);
+      var str = "";
+      str += '<div><div class="NameLine" style="color:#f68b1f;">ยินดีต้อนรับสู่ BA Life Sale Campaign Y2022</div>';
+      str += '<div class="NameLine" style="color:#fff;">'+ sessionStorage.getItem("EmpName") +'</div>';
+      str += '<div style="color:#002d63; font-size:15px; padding:2px 10px;font-weight: 600;">" '+ sessionStorage.getItem("EmpGroup_SBOzm") +'"</div>';
+      //str += '<div style="font-weight:600;color:#002d63;">'+ sessionStorage.getItem("BALifeDate") +'</div>';
+      str += '<div style="font-size: 11px; color:#000000;margin-top:15px;">เมื่อสิ้นสุดไตรมาส คะแนนสะสมจะถูกคำนวณเป็นเงินรางวัล กรณีมีคะแนนส่วนต่างจะไม่นำมาคำนวณเป็นรางวัล</div>';
+      str += '<div><img src="./img/admin-gif.gif" style="width:100%;margin-top:15px;"></div>';
+      str += '<di></div>';
+      str += '<div class="btn-t2" onclick="GotoLink_SBOZM()" style="margin-top:20px;padding:6px 40px;">ดูข้อมูลของ<br>คุณ'+ sessionStorage.getItem("EmpName") +'</div>';
+      str += '<div style="height: 15px;"></div>';
+      str += '</div>';
+      $("#WelcomePage_SBOZM").html(str);  
+      document.getElementById('id06').style.display='block';
+    });
+    if(sTNIapprove_SBOZM==0) {
+      CheckTNIapprove_AD();
+      //WaitingPage();
+    }
+  });
+}
+
+
+
+var sTNIapprove_AD = 0;
+function CheckTNIapprove_AD() {
+      //alert("pass"+sessionStorage.getItem("EmpID"));
+  dbBAlifeMember_AD.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID")))
+  .limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      sMemberlog = "Program 6 - Admin";
+      SaveBA_Log();
+      sCodeName = "BALifeCampaign_BBD";
+      CheckTNIdate(sCodeName);
+      sTNIapprove_AD = 1
+      sessionStorage.setItem("EmpGroup_AD", "Admin Group");
+      //sessionStorage.setItem("EmpGroup_SBO", doc.data().EmpGroup);
+      sessionStorage.setItem("EmpID_Admin", doc.data().EmpID);
+      sessionStorage.setItem("EmpName_Admin", doc.data().EmpName);
+      sessionStorage.setItem("EmpGroup_Admin", doc.data().EmpGroup);
+      //sessionStorage.setItem("EmpLevel_SBOzm", 1);
+      //alert(sDisplayDate);
+      var str = "";
+      str += '<div><div class="NameLine" style="color:#f68b1f;">ยินดีต้อนรับสู่ BA Life Sale Campaign Y2022</div>';
+      str += '<div class="NameLine" style="color:#fff;">'+ sessionStorage.getItem("EmpName") +'</div>';
+      str += '<div style="color:#002d63; font-size:15px; padding:2px 10px;font-weight: 600;">" '+ sessionStorage.getItem("EmpGroup_AD") +'"</div>';
+      //str += '<div style="font-weight:600;color:#002d63;">'+ sessionStorage.getItem("BALifeDate") +'</div>';
+      str += '<div style="font-size: 11px; color:#000000;margin-top:15px;">ทุกเดือนคะแนนจะถูกเปลี่ยนเป็นเงินรางวัลตามเกณฑ์ที่กำหนด<br>ส่วนต่างของคะแนนที่เหลือจะถูกยกไปสะสมต่อในเดือนถัดไป</div>';
+      str += '<div><img src="./img/report-gif.gif" style="width:100%;margin-top:15px;"></div>';
+      str += '<di></div>';
+      str += '<div class="btn-t2" onclick="GotoLink_AD()" style="margin-top:20px;padding:6px 40px;">ดูข้อมูลของ<br>คุณ'+ sessionStorage.getItem("EmpName") +'</div>';
+      str += '<div style="height: 15px;"></div>';
+      str += '</div>';
+      $("#WelcomePage_Admin").html(str);  
+      document.getElementById('id07').style.display='block';
+    });
+    if(sTNIapprove_AD==0) {
+      WaitingPage();
+    }
+  });
+}
+
+
+
+function WaitingPage() {
+  //alert(CheckFoundData);
+  var str = "";
+  str +='<center><div><img src="./img/stop.png" width="250px;"></div>';
+  str +='<div style="margin-top:20px;"><br><div class="text-waiting">เรียน <font color="#0056ff"><b>คุณ'+sessionStorage.getItem("EmpName")+'</b></font>';
+  if(CheckFoundData==2) {
+    str +='<br><b><font color="#ff0000">คุณยังไม่ได้รับสิทธิ์ในการเข้าใช้งานระบบนี้<br>โปรดรอการอนุมัติภายใน 24 ชั่วโมง</font></b></div>';
+  } else {
+    str +='<br><b><font color="#ff0000">คุณไม่ได้รับสิทธิ์ในการเข้าใช้งานระบบนี้</font></b></div>';
+    str +='<a href="mailto:suvit.cha@ttbbank.com&subject=แจ้งขอใช้ระบบงานของ LINE Retail Society&body=กรุณาระบุเหตุผลที่ต้องการใช้งาน" style="text-decoration: none;"><div class="btn-t2">แจ้งเราหากคุณต้องการใช้งาน</div></a>';
+  }
+  //str +='<div class="btn-t1" onclick="EditData()">คลิกเพื่อตรวจสอบข้อมูล</div>';
+  str +='</div></center>';
+  $("#MyWatingPage").html(str);  
+  document.getElementById('Loading').style.display='none';
+  document.getElementById('myRegister').style.display='none';
+  document.getElementById('WaitingPage').style.display='block';
+}
+/*
+
+function WaitingPage() {
+  var str = "";
+  str +='<center><div><img src="./img/stop.png" width="250px;"></div>';
+  str +='<div style="margin-top:20px;"><br><div class="text-waiting">เรียน <font color="#0056ff"><b>คุณ'+sessionStorage.getItem("EmpName")+'</b></font>';
+  str +='<br><b><font color="#ff0000">คุณไม่ได้รับสิทธิ์ในการเข้าใช้งานเว็บไซต์นี้</font></b></div>';
+  //str +='<div class="btn-t1" onclick="EditData()">คลิกเพื่อตรวจสอบข้อมูล</div>';
+  str +='</div></center>';
+  $("#MyWatingPage").html(str);  
+  document.getElementById('Loading').style.display='none';
+  document.getElementById('WaitingPage').style.display='block';
+}
+*/
+
+function ClickSaveProfile() {
+  var sCheckBottom = 0;
+  //alert($("input[type=checkbox][id=cb1]:checked").val());
+  stxtEmpID = document.getElementById("txtEmpID").value;
+  stxtEmpName = document.getElementById("txtEmpName").value;
+  stxtEmpPhone = document.getElementById("txtEmpPhone").value;
+  stxtEmpGroup = document.getElementById("txtEmpGroup").value;
+  if(stxtEmpID !== null && stxtEmpID !== '') { sCheckBottom = sCheckBottom+1; }
+  if(stxtEmpName !== null && stxtEmpName !== '') { sCheckBottom = sCheckBottom+1; }
+  if(stxtEmpPhone !== null && stxtEmpPhone !== '') { sCheckBottom = sCheckBottom+1; }
+  if(stxtEmpGroup !== null && stxtEmpGroup !== '') { sCheckBottom = sCheckBottom+1; }
+  if(sCheckBottom==4) {
+    SaveData();
+  }
+}
+
+
+
+
+function SaveData() {
+  NewDate();
+  if(EidProfile=="") {
+    alert("New User");
+    dbProfile.add({
+/*
+      lineID : sessionStorage.getItem("LineID"),
+      lineName : sessionStorage.getItem("LineName"),
+      linePicture : sessionStorage.getItem("LinePicture"),
+      empID : document.getElementById("txtEmpID").value,
+      empName : document.getElementById("txtEmpName").value,
+      empPhone : document.getElementById("txtEmpPhone").value,
+      empGroup : document.getElementById("txtEmpGroup").value,
+      empRH : document.getElementById("txtEmpGroup").value,
+      statusconfirm : 2,
+      statusedit : 1,
+      statuspass : 0,
+      empAddress : '',
+      lastcheckin : '',
+      memo : '',
+      empBr : '',
+      DateRegister : dateString,
+      RegisterDate : dateString
+*/
+      lineID : sessionStorage.getItem("LineID"),
+      linename : sessionStorage.getItem("LineName"),
+      linePicture : sessionStorage.getItem("LinePicture"),
+      empPicture : sessionStorage.getItem("LinePicture"),
+      empID : document.getElementById("txtEmpID").value,
+      empName : document.getElementById("txtEmpName").value,
+      empPhone : document.getElementById("txtEmpPhone").value,
+      empGroup : document.getElementById("txtEmpGroup").value,
+      empRH : document.getElementById("txtEmpGroup").value,
+      empAddress : '',
+      //StatusRegister : 0;
+      statusconfirm : 2,
+      statusedit : 1,
+      statuspass : 0,
+      empAddress : '',
+      lastcheckin : '',
+      memo : '',
+      empBr : 'BBD',
+      DateRegister : dateString
+
+
+    });
+  }
+  CheckData();
+  document.getElementById('myRegister').style.display='none';
+  document.getElementById('myTimer').style.display='block';
+}
+
+
+
+function GotoLink() {
+  location.href = 'home.html';
+}
+
+function GotoLink_SBO() {
+  location.href = 'sbo.html';
+}
+
+function GotoLink_BAzh() {
+  location.href = 'home_zh.html';
+}
+
+function GotoLink_BArh() {
+  location.href = 'home_rh.html';
+}
+
+function GotoLink_SBOZM() {
+  location.href = 'home_sbozm.html';  
+}
+
+function GotoLink_AD() {
+  location.href = 'ad_rh.html';  
+}
+
+
+function SaveBA_Log() {
+  NewDate();
+  var TimeStampDate = Math.round(Date.now() / 1000);
+  dbBAlifeMember_log.add({
+    LineID : sessionStorage.getItem("LineID"),
+    LineName : sessionStorage.getItem("LineName"),
+    LinePicture : sessionStorage.getItem("LinePicture"),
+    EmpID : sessionStorage.getItem("EmpID"),
+    EmpName : sessionStorage.getItem("EmpName"),
+    PageVisit : sMemberlog,
+    LogDateTime : dateString,
+    LogTimeStamp : TimeStampDate
+  });
+}
+
+
+
+function NewDate() {
+  var today = new Date();
+  var day = today.getDate() + "";
+  var month = (today.getMonth() + 1) + "";
+  var year = today.getFullYear() + "";
+  var hour = today.getHours() + "";
+  var minutes = today.getMinutes() + "";
+  var seconds = today.getSeconds() + "";
+  var ampm = hour >= 12 ? 'PM' : 'AM';
+  day = checkZero(day);
+  month = checkZero(month);
+  year = checkZero(year);
+  hour = checkZero(hour);
+  minutes = checkZero(minutes);
+  seconds = checkZero(seconds);
+  dateString = day + "/" + month + "/" + year + " " + hour + ":" + minutes + ":" + seconds +" "+ ampm;
+}
+
+
+function checkZero(data){
+  if(data.length == 1){
+    data = "0" + data;
+  }
+  return data;
+}
+
+
+function CloseAll() {
+  document.getElementById('id01').style.display='none';
+  document.getElementById('id02').style.display='none';
+  document.getElementById('id03').style.display='none';
+  document.getElementById('id04').style.display='none';
+  document.getElementById('id05').style.display='none';
+  document.getElementById('id06').style.display='none';
+  document.getElementById('id07').style.display='none';
+  document.getElementById('NotPass').style.display='none';
+}
