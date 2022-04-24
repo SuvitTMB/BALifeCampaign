@@ -1,1 +1,100 @@
-(function(_0x2a7dbe,_0x7039f7){var _0xef166c=_0x464a,_0x292d21=_0x2a7dbe();while(!![]){try{var _0x14f237=-parseInt(_0xef166c(0x1c7))/0x1+parseInt(_0xef166c(0x1b5))/0x2*(-parseInt(_0xef166c(0x1c8))/0x3)+-parseInt(_0xef166c(0x1bc))/0x4*(parseInt(_0xef166c(0x1b1))/0x5)+-parseInt(_0xef166c(0x1cf))/0x6+-parseInt(_0xef166c(0x1da))/0x7+-parseInt(_0xef166c(0x1d7))/0x8*(-parseInt(_0xef166c(0x1b9))/0x9)+parseInt(_0xef166c(0x1a6))/0xa*(parseInt(_0xef166c(0x1c3))/0xb);if(_0x14f237===_0x7039f7)break;else _0x292d21['push'](_0x292d21['shift']());}catch(_0x99f740){_0x292d21['push'](_0x292d21['shift']());}}}(_0x5cd1,0x4938c),$(document)['ready'](function(){var _0x2b6e14=_0x464a;sessionStorage['getItem']('EmpLevel_SBO')==null&&(location[_0x2b6e14(0x1ae)]=_0x2b6e14(0x1cc)),$('#BALifeDate')[_0x2b6e14(0x1d5)](sessionStorage[_0x2b6e14(0x1bf)]('BALifeDate')),Connect_DB();}));function Connect_DB(){var _0xb7c0eb=_0x464a,_0x1752fe={'apiKey':_0xb7c0eb(0x1a5),'authDomain':_0xb7c0eb(0x1d8),'projectId':'retailproject-6f4fc','databaseURL':'https://file-upload-6f4fc.firebaseio.com','storageBucket':'retailproject-6f4fc.appspot.com','messagingSenderId':'653667385625','appId':'1:653667385625:web:a5aed08500de80839f0588','measurementId':_0xb7c0eb(0x1ba)};firebase[_0xb7c0eb(0x1a7)](_0x1752fe),dbTNInember=firebase[_0xb7c0eb(0x1aa)]()[_0xb7c0eb(0x1af)](_0xb7c0eb(0x1d3)),UserRanking(),ListRanking();}function UserRanking(){var _0x3fbdcc=_0x464a,_0x23d1f7='';dbTNInember[_0x3fbdcc(0x1c0)]('EmpID','==',parseFloat(sessionStorage[_0x3fbdcc(0x1bf)](_0x3fbdcc(0x1c5))))[_0x3fbdcc(0x1b0)](0x1)[_0x3fbdcc(0x1be)]()[_0x3fbdcc(0x1b7)](_0x363101=>{var _0x2d80f3=_0x3fbdcc;_0x363101[_0x2d80f3(0x1a8)](_0x3402fe=>{var _0x38d809=_0x2d80f3;_0x23d1f7+=_0x38d809(0x1ab),_0x23d1f7+=_0x38d809(0x1bd)+_0x3402fe['data']()[_0x38d809(0x1b3)]+_0x38d809(0x1d1)+_0x3402fe[_0x38d809(0x1bb)]()['EmpPosition']+_0x38d809(0x1c6)+_0x3402fe[_0x38d809(0x1bb)]()[_0x38d809(0x1cd)]+'\x20,\x20'+_0x3402fe[_0x38d809(0x1bb)]()[_0x38d809(0x1b6)]+_0x38d809(0x1c9),_0x23d1f7+=_0x38d809(0x1c1)+addCommas(_0x3402fe[_0x38d809(0x1bb)]()[_0x38d809(0x1b8)])+_0x38d809(0x1b4),_0x23d1f7+=_0x38d809(0x1c1)+addCommas(_0x3402fe['data']()[_0x38d809(0x1d6)]['toFixed'](0x0))+'</div><div\x20style=\x22font-size:10px;color:#fff;\x22>Point</div></div>',_0x23d1f7+=_0x38d809(0x1c9),$(_0x38d809(0x1cb))['html'](_0x23d1f7);});});}function _0x464a(_0x46a87f,_0x35e4b7){var _0x5cd1fb=_0x5cd1();return _0x464a=function(_0x464a5d,_0x3c8bdb){_0x464a5d=_0x464a5d-0x1a5;var _0xac5f7b=_0x5cd1fb[_0x464a5d];return _0xac5f7b;},_0x464a(_0x46a87f,_0x35e4b7);}function _0x5cd1(){var _0x42fadc=['</div><div\x20style=\x22font-size:10px;\x22>อันดับ</div></div>','html','OLPoint','1779496jeWBMG','retailproject-6f4fc.firebaseapp.com','test','2188473YsqrDR','AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE','4098170wTzOTS','initializeApp','forEach','EmpGroup','firestore','<div\x20class=\x22btn-leaderboard1\x22\x20style=\x22background:#002d63;\x20color:#fff;\x22>','asc','<div\x20class=\x22leader-rank\x22><div\x20class=\x22Rainking-number\x22>','href','collection','limit','230aVKMkl','</div><div\x20style=\x22font-size:10px;\x22>Point</div></div>','EmpName','</div><div\x20style=\x22font-size:10px;color:#fff;\x22>อันดับ</div></div>','2bdSihr','EmpRH','then','TopQuarter','9UbGFvF','G-9SKTRHHSW9','data','30692ptdBJA','<div\x20style=\x22width:70%;float:\x20left;line-height:\x201.2;\x22><b>','get','getItem','where','<div\x20class=\x22leader-rank\x22><div\x20class=\x22Rainking-number\x22\x20style=\x22color:#f68b1f;\x22>','\x20,\x20','33AjDYgD','<div\x20class=\x22btn-leaderboard1\x22\x20style=\x22background:#feebd5;\x22>','EmpID','<br>Zone-','115558XTGabi','522849zYyBWn','</div>','length','#DisplayUserRanking','index.html','EmpZone','orderBy','1179204wWDfdC','EmpPosition','</b><br>','Point_all','BALifeCampaign_SBO'];_0x5cd1=function(){return _0x42fadc;};return _0x5cd1();}function ListRanking(){var _0x3a362c=_0x464a,_0x1e9554='';dbTNInember[_0x3a362c(0x1c0)]('EmpGroup','==',sessionStorage[_0x3a362c(0x1bf)](_0x3a362c(0x1a9)))[_0x3a362c(0x1ce)](_0x3a362c(0x1b8),_0x3a362c(0x1ac))['limit'](0x1e)[_0x3a362c(0x1be)]()[_0x3a362c(0x1b7)](_0x4f584a=>{var _0x4076f5=_0x3a362c;_0x4f584a[_0x4076f5(0x1a8)](_0x454196=>{var _0x1b1b4f=_0x4076f5;_0x454196[_0x1b1b4f(0x1bb)]()[_0x1b1b4f(0x1d2)]>0x0&&(_0x454196[_0x1b1b4f(0x1bb)]()['EmpID']==parseFloat(sessionStorage[_0x1b1b4f(0x1bf)](_0x1b1b4f(0x1c5)))?_0x1e9554+='<div\x20class=\x22btn-leaderboard1\x22\x20style=\x22background:#f68b1f;\x20color:#fff;\x22>':_0x454196[_0x1b1b4f(0x1bb)]()['TopQuarter']<0x4?_0x1e9554+='<div\x20class=\x22btn-leaderboard1\x22\x20style=\x22background:#e6ecf8;\x22>':_0x1e9554+=_0x1b1b4f(0x1c4),_0x1e9554+=_0x1b1b4f(0x1bd)+_0x454196[_0x1b1b4f(0x1bb)]()['EmpName']+_0x1b1b4f(0x1d1)+_0x454196['data']()[_0x1b1b4f(0x1d0)]+_0x1b1b4f(0x1c6)+_0x454196[_0x1b1b4f(0x1bb)]()[_0x1b1b4f(0x1cd)]+_0x1b1b4f(0x1c2)+_0x454196[_0x1b1b4f(0x1bb)]()[_0x1b1b4f(0x1b6)]+_0x1b1b4f(0x1c9),_0x1e9554+=_0x1b1b4f(0x1ad)+addCommas(_0x454196['data']()[_0x1b1b4f(0x1b8)])+_0x1b1b4f(0x1d4),_0x1e9554+='<div\x20class=\x22leader-rank\x22><div\x20class=\x22Rainking-number\x22>'+addCommas(_0x454196[_0x1b1b4f(0x1bb)]()[_0x1b1b4f(0x1d6)]['toFixed'](0x0))+_0x1b1b4f(0x1b2),_0x1e9554+='</div>');}),$('#DisplayRanking')[_0x4076f5(0x1d5)](_0x1e9554);});}function addCommas(_0x158dca){var _0x4af1a5=_0x464a;_0x158dca+='',x=_0x158dca['split']('.'),x1=x[0x0],x2=x[_0x4af1a5(0x1ca)]>0x1?'.'+x[0x1]:'';var _0xc730b1=/(\d+)(\d{3})/;while(_0xc730b1[_0x4af1a5(0x1d9)](x1)){x1=x1['replace'](_0xc730b1,'$1'+','+'$2');}return x1+x2;}
+
+
+$(document).ready(function () {
+  if(sessionStorage.getItem("EmpLevel_SBO")==null) { location.href = "index.html"; }
+  $("#BALifeDate").html(sessionStorage.getItem("BALifeDate"));  
+  //alert(sessionStorage.getItem("EmpGroup"));
+ 	Connect_DB();
+  //CheckTNIdate();
+});
+
+
+function Connect_DB() {
+  var firebaseConfig = {
+    apiKey: "AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE",
+    authDomain: "retailproject-6f4fc.firebaseapp.com",
+    projectId: "retailproject-6f4fc",
+    databaseURL: "https://file-upload-6f4fc.firebaseio.com",
+    storageBucket: "retailproject-6f4fc.appspot.com",
+    messagingSenderId: "653667385625",
+    appId: "1:653667385625:web:a5aed08500de80839f0588",
+    measurementId: "G-9SKTRHHSW9"
+  };
+  firebase.initializeApp(firebaseConfig);
+  dbTNInember = firebase.firestore().collection("BALifeCampaign_SBO");
+  UserRanking();
+  ListRanking();
+}
+
+
+/*
+function CheckTNIdate() {
+  dbTNIdate.limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      sessionStorage.setItem("TNIdate", doc.data().DateUpload);
+      $("#DateUpload").html(doc.data().DateUpload);  
+    });
+  });
+}
+*/
+
+function UserRanking() {
+  var str = "";
+  dbTNInember.where('EmpID','==',parseFloat(sessionStorage.getItem("EmpID")))
+  .limit(1).get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+        str += '<div class="btn-leaderboard1" style="background:#002d63; color:#fff;">';
+        str += '<div style="width:70%;float: left;line-height: 1.2;"><b>'+doc.data().EmpName+'</b><br>'+doc.data().EmpPosition+'<br>Zone-'+doc.data().EmpZone+' , '+doc.data().EmpRH+'</div>';
+        str += '<div class="leader-rank"><div class="Rainking-number" style="color:#f68b1f;">'+addCommas(doc.data().TopQuarter)+'</div><div style="font-size:10px;color:#fff;">อันดับ</div></div>';
+        str += '<div class="leader-rank"><div class="Rainking-number" style="color:#f68b1f;">'+addCommas(doc.data().OLPoint.toFixed(0))+'</div><div style="font-size:10px;color:#fff;">Point</div></div>';
+        str += '</div>';        
+        $("#DisplayUserRanking").html(str);
+    });
+  });
+}
+
+
+
+function ListRanking() {
+  //alert(sessionStorage.getItem("EmpGroup"));
+  var str = "";
+  dbTNInember.where('EmpGroup','==',sessionStorage.getItem("EmpGroup"))
+  .orderBy('TopQuarter','asc')
+  .limit(30)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      if(doc.data().Point_all>0) {
+        if(doc.data().EmpID==parseFloat(sessionStorage.getItem("EmpID"))) {
+          str += '<div class="btn-leaderboard1" style="background:#f68b1f; color:#fff;">';
+        } else {
+          if(doc.data().TopQuarter<4) {
+            str += '<div class="btn-leaderboard1" style="background:#e6ecf8;">';
+          } else {
+            str += '<div class="btn-leaderboard1" style="background:#feebd5;">';
+          }
+        }
+        str += '<div style="width:70%;float: left;line-height: 1.2;"><b>'+doc.data().EmpName+'</b><br>'+doc.data().EmpPosition+'<br>Zone-'+doc.data().EmpZone+' , '+doc.data().EmpRH+'</div>';
+        str += '<div class="leader-rank"><div class="Rainking-number">'+addCommas(doc.data().TopQuarter)+'</div><div style="font-size:10px;">อันดับ</div></div>';
+        str += '<div class="leader-rank"><div class="Rainking-number">'+addCommas(doc.data().OLPoint.toFixed(0))+'</div><div style="font-size:10px;">Point</div></div>';
+        str += '</div>';        
+      }
+    });
+    $("#DisplayRanking").html(str);
+  });
+}
+
+
+
+
+function addCommas(nStr) {
+  nStr += '';
+  x = nStr.split('.');
+  x1 = x[0];
+  x2 = x.length > 1 ? '.' + x[1] : '';
+  var rgx = /(\d+)(\d{3})/;
+  while (rgx.test(x1)) {
+    x1 = x1.replace(rgx, '$1' + ',' + '$2');
+  }
+  return x1 + x2;
+}

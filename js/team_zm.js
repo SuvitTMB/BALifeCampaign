@@ -1,1 +1,85 @@
-var _0x4b21b5=_0x42e7;function _0x42e7(_0x42c639,_0x4abfdf){var _0x16f264=_0x16f2();return _0x42e7=function(_0x42e735,_0x4b1bb9){_0x42e735=_0x42e735-0x181;var _0x438262=_0x16f264[_0x42e735];return _0x438262;},_0x42e7(_0x42c639,_0x4abfdf);}(function(_0x5d874b,_0x50ecfb){var _0xd1b9e5=_0x42e7,_0x2759c1=_0x5d874b();while(!![]){try{var _0x263ab6=-parseInt(_0xd1b9e5(0x18e))/0x1*(parseInt(_0xd1b9e5(0x187))/0x2)+parseInt(_0xd1b9e5(0x1a1))/0x3*(-parseInt(_0xd1b9e5(0x1b2))/0x4)+parseInt(_0xd1b9e5(0x1a7))/0x5+-parseInt(_0xd1b9e5(0x1a3))/0x6+parseInt(_0xd1b9e5(0x198))/0x7*(-parseInt(_0xd1b9e5(0x19e))/0x8)+parseInt(_0xd1b9e5(0x19c))/0x9*(-parseInt(_0xd1b9e5(0x199))/0xa)+parseInt(_0xd1b9e5(0x192))/0xb*(parseInt(_0xd1b9e5(0x19f))/0xc);if(_0x263ab6===_0x50ecfb)break;else _0x2759c1['push'](_0x2759c1['shift']());}catch(_0x2d4025){_0x2759c1['push'](_0x2759c1['shift']());}}}(_0x16f2,0x94da7),$(document)[_0x4b21b5(0x18d)](function(){var _0x14b723=_0x4b21b5;sessionStorage[_0x14b723(0x196)](_0x14b723(0x1a0))==null&&(location['href']=_0x14b723(0x1aa)),$('#BALifeDate')['html'](sessionStorage[_0x14b723(0x196)](_0x14b723(0x191))),Connect_DB();}));function _0x16f2(){var _0x33a9b2=['2684451nswbiP','desc','6761136ApmDXs','EmpRH','EmpGroup','AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE','2997560KoVQZm','https://file-upload-6f4fc.firebaseio.com','destroy','index.html','Zone','#ex-table\x20tbody','txt-right','remove','EmpZone','collection','DataTable','4suVvho','where','orderBy','firestore','replace','toFixed','push','TargetCL','APICL','1:653667385625:web:a5aed08500de80839f0588','2ghGTAZ','RewardCL','EmpGroup_SBO','retailproject-6f4fc','retailproject-6f4fc.appspot.com','data','ready','26714JgepQc','Target\x20CL','get','BALifeDate','11sxrUwW','length','AchCL','G-9SKTRHHSW9','getItem','test','119CKmZVn','4037980bUYSGd','txt-center','BALifeCampaign_SBOZM','27MENTMQ','#ex-table','439752mUtSip','50453340RTPRPQ','EmpLevel_SBOzm'];_0x16f2=function(){return _0x33a9b2;};return _0x16f2();}function Connect_DB(){var _0x460977=_0x4b21b5,_0x3325b3={'apiKey':_0x460977(0x1a6),'authDomain':'retailproject-6f4fc.firebaseapp.com','projectId':_0x460977(0x18a),'databaseURL':_0x460977(0x1a8),'storageBucket':_0x460977(0x18b),'messagingSenderId':'653667385625','appId':_0x460977(0x186),'measurementId':_0x460977(0x195)};firebase['initializeApp'](_0x3325b3),dbBALife_ZH=firebase[_0x460977(0x1b5)]()[_0x460977(0x1b0)](_0x460977(0x19b)),loadZH();}function loadZH(){var _0x1936ae=_0x4b21b5,_0x2329e0=0x0,_0x4ebd71=0x0;count=0x0,dataSet='',dataSrc=[],dbBALife_ZH[_0x1936ae(0x1b3)](_0x1936ae(0x1a5),'==',sessionStorage[_0x1936ae(0x196)](_0x1936ae(0x189)))[_0x1936ae(0x1b4)](_0x1936ae(0x185),_0x1936ae(0x1a2))[_0x1936ae(0x190)]()['then'](_0x4a5eff=>{var _0x239eec=_0x1936ae;_0x4a5eff['forEach'](_0x4ff494=>{var _0x532385=_0x42e7;_0x2329e0=_0x2329e0+0x1,dataSet=[_0x4ff494['data']()[_0x532385(0x1af)],_0x4ff494['data']()[_0x532385(0x1a4)],_0x4ff494[_0x532385(0x18c)]()[_0x532385(0x194)],addCommas(_0x4ff494[_0x532385(0x18c)]()[_0x532385(0x184)]['toFixed'](0x0)),addCommas(_0x4ff494[_0x532385(0x18c)]()[_0x532385(0x185)][_0x532385(0x182)](0x0)),_0x4ff494[_0x532385(0x18c)]()[_0x532385(0x188)],_0x4ff494['id'],_0x2329e0],dataSrc[_0x532385(0x183)](dataSet),count++;}),dTable=$(_0x239eec(0x19d))[_0x239eec(0x1b1)]({'bDestroy':!![],'data':dataSrc,'columns':[{'title':_0x239eec(0x1ab)},{'title':'RH','className':_0x239eec(0x19a)},{'title':'AchCL','className':_0x239eec(0x19a)},{'title':_0x239eec(0x18f),'className':_0x239eec(0x1ad)},{'title':'APICL','className':_0x239eec(0x1ad)},{'title':_0x239eec(0x188),'className':_0x239eec(0x1ad)}],'dom':'lfrtipB','buttons':[],'lengthMenu':[[0x1e,0x32,0x64,-0x1],[0x1e,0x32,0x64,'All']],'columnDefs':[{'type':'num-fmt','targets':[0x2]}],'order':[[0x2,_0x239eec(0x1a2)]]});}),$(_0x1936ae(0x19d))['DataTable']()[_0x1936ae(0x1a9)](),$(_0x1936ae(0x1ac))[_0x1936ae(0x1ae)]();}function addCommas(_0x5961e7){var _0x26f1bf=_0x4b21b5;_0x5961e7+='',x=_0x5961e7['split']('.'),x1=x[0x0],x2=x[_0x26f1bf(0x193)]>0x1?'.'+x[0x1]:'';var _0x216852=/(\d+)(\d{3})/;while(_0x216852[_0x26f1bf(0x197)](x1)){x1=x1[_0x26f1bf(0x181)](_0x216852,'$1'+','+'$2');}return x1+x2;}
+
+
+$(document).ready(function () {
+  if(sessionStorage.getItem("EmpLevel_SBOzm")==null) { location.href = "index.html"; }
+  //alert(sessionStorage.getItem("EmpSBO_RH"));
+  //alert(sessionStorage.getItem("EmpZone"));
+  $("#BALifeDate").html(sessionStorage.getItem("BALifeDate"));  
+  //alert(sessionStorage.getItem("EmpGroup"));
+ 	Connect_DB();
+});
+
+
+function Connect_DB() {
+  var firebaseConfig = {
+    apiKey: "AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE",
+    authDomain: "retailproject-6f4fc.firebaseapp.com",
+    projectId: "retailproject-6f4fc",
+    databaseURL: "https://file-upload-6f4fc.firebaseio.com",
+    storageBucket: "retailproject-6f4fc.appspot.com",
+    messagingSenderId: "653667385625",
+    appId: "1:653667385625:web:a5aed08500de80839f0588",
+    measurementId: "G-9SKTRHHSW9"
+  };
+  firebase.initializeApp(firebaseConfig);
+  dbBALife_ZH = firebase.firestore().collection("BALifeCampaign_SBOZM");
+  loadZH();
+  //UserRanking();
+  //ListRanking();
+}
+
+
+
+function loadZH(){
+  var i = 0;
+  var sAchievement = 0;
+  count = 0;
+  dataSet = "";
+  dataSrc = [];
+  dbBALife_ZH.where('EmpGroup','==', sessionStorage.getItem("EmpGroup_SBO"))
+  .orderBy('APICL','desc')
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      i = (i+1);
+      dataSet = [doc.data().EmpZone, doc.data().EmpRH, doc.data().AchCL ,addCommas(doc.data().TargetCL.toFixed(0)) ,addCommas(doc.data().APICL.toFixed(0)), doc.data().RewardCL, doc.id, i];
+      dataSrc.push(dataSet);
+      count++;
+    }); 
+    dTable=$('#ex-table').DataTable({
+      "bDestroy": true,    
+      data: dataSrc,
+      columns: [
+        { title: "Zone" },
+        { title: "RH", className: "txt-center" },
+        { title: "AchCL", className: "txt-center" },
+        { title: "Target CL", className: "txt-right"  },
+        { title: "APICL", className: "txt-right" },
+        { title: "RewardCL", className: "txt-right"  },
+        ],
+        dom: 'lfrtipB',
+        buttons: [
+            //'copy', 'excelFlash', 'excel', 'pdf', 'print'
+        ],
+          lengthMenu: [[30, 50, 100, -1], [30, 50, 100, "All"]],
+
+        columnDefs: [ { type: 'num-fmt', 'targets': [2] } ],
+        order: [[ 2, 'desc']]
+      });   
+  });
+  $('#ex-table').DataTable().destroy();
+  $("#ex-table tbody").remove();
+}
+
+
+
+function addCommas(nStr) {
+  nStr += '';
+  x = nStr.split('.');
+  x1 = x[0];
+  x2 = x.length > 1 ? '.' + x[1] : '';
+  var rgx = /(\d+)(\d{3})/;
+  while (rgx.test(x1)) {
+    x1 = x1.replace(rgx, '$1' + ',' + '$2');
+  }
+  return x1 + x2;
+}

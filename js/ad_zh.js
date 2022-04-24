@@ -1,1 +1,136 @@
-var _0x52a4fe=_0x3e06;(function(_0x4f1aa1,_0x527410){var _0x435c71=_0x3e06,_0x21e9ba=_0x4f1aa1();while(!![]){try{var _0x2745a6=-parseInt(_0x435c71(0x116))/0x1+parseInt(_0x435c71(0xe9))/0x2+parseInt(_0x435c71(0x107))/0x3*(parseInt(_0x435c71(0xf8))/0x4)+-parseInt(_0x435c71(0x103))/0x5*(-parseInt(_0x435c71(0xff))/0x6)+parseInt(_0x435c71(0x10c))/0x7*(parseInt(_0x435c71(0xe7))/0x8)+-parseInt(_0x435c71(0xef))/0x9*(parseInt(_0x435c71(0xec))/0xa)+-parseInt(_0x435c71(0xf4))/0xb;if(_0x2745a6===_0x527410)break;else _0x21e9ba['push'](_0x21e9ba['shift']());}catch(_0x7e32cc){_0x21e9ba['push'](_0x21e9ba['shift']());}}}(_0x2c68,0x3e087));var x=_0x52a4fe(0x111);$(document)[_0x52a4fe(0x10d)](function(){var _0x52178f=_0x52a4fe;sessionStorage[_0x52178f(0xf6)]('EmpGroup_AD')==null&&(location['href']=_0x52178f(0x10f)),$(_0x52178f(0x115))[_0x52178f(0x10e)](sessionStorage[_0x52178f(0xf6)](_0x52178f(0x117))),Connect_DB();});function _0x2c68(){var _0x4fc56f=['653667385625','retailproject-6f4fc','data','46256tccCuF','CarryPoint','621720gIhhdT','All','txt-center','849190AdgGPx','#ex-table','replace','9mKLbCC','RankingZH','length','destroy','TotalAPENet','6304760KnBHxi','get','getItem','firestore','4mAppAG','asc','txt-right','num-fmt','Target\x20BA','EmpZone','retailproject-6f4fc.firebaseapp.com','762PZrKuC','%เป้าหมาย','https://file-upload-6f4fc.firebaseio.com','remove','17210uPfpbQ','EmpGroup','1:653667385625:web:a5aed08500de80839f0588','AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE','834279EDrPTq','orderBy','value','getElementById','EmpRH','105NtpfzR','ready','html','index.html','DataTable','BBD','split','Ranking','lfrtipB','#BALifeDate','200651DWJKWL','BALifeDate','TargetBATrip','#ex-table\x20tbody','G-9SKTRHHSW9','Achievement','forEach','retailproject-6f4fc.appspot.com'];_0x2c68=function(){return _0x4fc56f;};return _0x2c68();}function Connect_DB(){var _0x1a46bd=_0x52a4fe,_0x4fb911={'apiKey':_0x1a46bd(0x106),'authDomain':_0x1a46bd(0xfe),'projectId':_0x1a46bd(0x11f),'databaseURL':_0x1a46bd(0x101),'storageBucket':_0x1a46bd(0x11d),'messagingSenderId':_0x1a46bd(0x11e),'appId':_0x1a46bd(0x105),'measurementId':_0x1a46bd(0x11a)};firebase['initializeApp'](_0x4fb911),dbBALife_ZH=firebase[_0x1a46bd(0xf7)]()['collection']('BAlifeMember_ZH'),SelectMeunu();}function SelectMeunu(){var _0x2ede25=_0x52a4fe;x=document[_0x2ede25(0x10a)]('ClickMenu')[_0x2ede25(0x109)],loadZH(x);}function _0x3e06(_0x412f94,_0x56099e){var _0x2c68eb=_0x2c68();return _0x3e06=function(_0x3e0647,_0x2e7eff){_0x3e0647=_0x3e0647-0xe7;var _0x6e265d=_0x2c68eb[_0x3e0647];return _0x6e265d;},_0x3e06(_0x412f94,_0x56099e);}function loadZH(_0x501286){var _0x18d91c=_0x52a4fe,_0x4adaf5=0x0,_0x55da9b=0x0;count=0x0,dataSet='',dataSrc=[],dbBALife_ZH['where'](_0x18d91c(0x104),'==',_0x501286)[_0x18d91c(0x108)](_0x18d91c(0xf0),_0x18d91c(0xf9))[_0x18d91c(0xf5)]()['then'](_0x5985de=>{var _0x574621=_0x18d91c;_0x5985de[_0x574621(0x11c)](_0x2680e9=>{var _0x2f6bfb=_0x574621;_0x4adaf5=_0x4adaf5+0x1;if(_0x501286==_0x2f6bfb(0x111))dataSet=[_0x2680e9[_0x2f6bfb(0x120)]()[_0x2f6bfb(0xfd)],_0x2680e9[_0x2f6bfb(0x120)]()[_0x2f6bfb(0x10b)],_0x2680e9[_0x2f6bfb(0x120)]()[_0x2f6bfb(0xf0)],addCommas(_0x2680e9[_0x2f6bfb(0x120)]()['TargetBATrip']),addCommas(_0x2680e9['data']()[_0x2f6bfb(0xf3)]),_0x2680e9[_0x2f6bfb(0x120)]()[_0x2f6bfb(0x11b)],_0x2680e9['id'],_0x4adaf5];else _0x501286=='WB'&&(dataSet=[_0x2680e9[_0x2f6bfb(0x120)]()['EmpZone'],_0x2680e9['data']()[_0x2f6bfb(0x10b)],_0x2680e9[_0x2f6bfb(0x120)]()[_0x2f6bfb(0xe8)],addCommas(_0x2680e9[_0x2f6bfb(0x120)]()[_0x2f6bfb(0x118)]),addCommas(_0x2680e9[_0x2f6bfb(0x120)]()[_0x2f6bfb(0xf3)]),_0x2680e9[_0x2f6bfb(0x120)]()['Achievement'],_0x2680e9['id'],_0x4adaf5]);dataSrc['push'](dataSet),count++;}),dTable=$(_0x574621(0xed))[_0x574621(0x110)]({'bDestroy':!![],'data':dataSrc,'columns':[{'title':'Zone'},{'title':'RH','className':'txt-center'},{'title':_0x574621(0x113),'className':_0x574621(0xeb)},{'title':_0x574621(0xfc),'className':_0x574621(0xfa)},{'title':'Total\x20APE\x20Net','className':_0x574621(0xfa)},{'title':_0x574621(0x100),'className':_0x574621(0xfa)}],'dom':_0x574621(0x114),'buttons':[],'lengthMenu':[[0x32,0x64,-0x1],[0x32,0x64,_0x574621(0xea)]],'columnDefs':[{'type':_0x574621(0xfb),'targets':[0x2]}],'order':[[0x2,_0x574621(0xf9)]]});}),$('#ex-table')[_0x18d91c(0x110)]()[_0x18d91c(0xf2)](),$(_0x18d91c(0x119))[_0x18d91c(0x102)]();}function addCommas(_0x3ac18b){var _0x31d1c6=_0x52a4fe;_0x3ac18b+='',x=_0x3ac18b[_0x31d1c6(0x112)]('.'),x1=x[0x0],x2=x[_0x31d1c6(0xf1)]>0x1?'.'+x[0x1]:'';var _0x5e2b35=/(\d+)(\d{3})/;while(_0x5e2b35['test'](x1)){x1=x1[_0x31d1c6(0xee)](_0x5e2b35,'$1'+','+'$2');}return x1+x2;}
+var x = "BBD";
+
+
+$(document).ready(function () {
+  if(sessionStorage.getItem("EmpGroup_AD")==null) { location.href = "index.html"; }
+  if(sessionStorage.getItem("EmpGroup_Admin")=="WB") { 
+    location.href = 'ad_zmsbo.html';  
+  } 
+  $("#BALifeDate").html(sessionStorage.getItem("BALifeDate"));  
+ 	Connect_DB();
+});
+
+
+function Connect_DB() {
+  var firebaseConfig = {
+    apiKey: "AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE",
+    authDomain: "retailproject-6f4fc.firebaseapp.com",
+    projectId: "retailproject-6f4fc",
+    databaseURL: "https://file-upload-6f4fc.firebaseio.com",
+    storageBucket: "retailproject-6f4fc.appspot.com",
+    messagingSenderId: "653667385625",
+    appId: "1:653667385625:web:a5aed08500de80839f0588",
+    measurementId: "G-9SKTRHHSW9"
+  };
+  firebase.initializeApp(firebaseConfig);
+  dbBALife_ZH = firebase.firestore().collection("BAlifeMember_ZH");
+  AdminMenu();
+  SelectMeunu();
+  //loadZH();
+  //UserRanking();
+  //ListRanking();
+}
+
+
+function SelectMeunu() {
+  x = document.getElementById("ClickMenu").value;
+  loadZH(x);
+}
+
+function AdminMenu() {
+  var str = "";
+  str += '<div style="max-width:400px;">';
+  if(sessionStorage.getItem("EmpGroup_Admin")=="Admin") { 
+    str += '<div class="iconlink1" onClick=window.location="ad_rh.html";>';
+    str += '<div style="width:28px;"><img src="./img/report-1.png" style="width:22px;"></div>';
+    str += '<div style="font-size: 11px;">RH</div></div>';
+    str += '<div class="iconlink1" onClick=window.location="ad_zh.html"; style="background-color: #002d63;">';
+    str += '<div style="width:28px;"><img src="./img/report-2.png" style="width:22px;"></div>';
+    str += '<div style="font-size: 11px;">ZH</div></div>';
+    str += '<div class="iconlink1" onClick=window.location="ad_ba.html";>';
+    str += '<div style="width:28px;"><img src="./img/report-3.png" style="width:22px;"></div>';
+    str += '<div style="font-size: 11px;">Branch</div></div>';
+    str += '<div class="iconlink1" onClick=window.location="ad_zmsbo.html";>';
+    str += '<div style="width:28px;"><img src="./img/report-4.png" style="width:22px;"></div>';
+    str += '<div style="font-size: 11px;">ZM-SBO</div></div>';
+    str += '<div class="iconlink1" onClick=window.location="ad_sbo.html";>';
+    str += '<div style="width:28px;"><img src="./img/report-5.png" style="width:22px;"></div>';
+    str += '<div style="font-size: 11px;">SBO</div></div>';
+  } else if(sessionStorage.getItem("EmpGroup_Admin")=="BBD") { 
+    str += '<div class="iconlink1" onClick=window.location="ad_rh.html";>';
+    str += '<div style="width:28px;"><img src="./img/report-1.png" style="width:22px;"></div>';
+    str += '<div style="font-size: 11px;">RH</div></div>';
+    str += '<div class="iconlink1" onClick=window.location="ad_zh.html"; style="background-color: #002d63;">';
+    str += '<div style="width:28px;"><img src="./img/report-2.png" style="width:22px;"></div>';
+    str += '<div style="font-size: 11px;">ZH</div></div>';
+    str += '<div class="iconlink1" onClick=window.location="ad_ba.html";>';
+    str += '<div style="width:28px;"><img src="./img/report-3.png" style="width:22px;"></div>';
+    str += '<div style="font-size: 11px;">Branch</div></div>';
+  } else if(sessionStorage.getItem("EmpGroup_Admin")=="WB") { 
+    str += '<div class="iconlink1" onClick=window.location="ad_zmsbo.html";>';
+    str += '<div style="width:28px;"><img src="./img/report-4.png" style="width:22px;"></div>';
+    str += '<div style="font-size: 11px;">ZM-SBO</div></div>';
+    str += '<div class="iconlink1" onClick=window.location="ad_sbo.html";>';
+    str += '<div style="width:28px;"><img src="./img/report-5.png" style="width:22px;"></div>';
+    str += '<div style="font-size: 11px;">SBO</div></div>';
+  }
+  str += '</div>';
+  $("#DisplayMemu").html(str);  
+}
+
+
+function loadZH(id){
+  var i = 0;
+  var sAchievement = 0;
+  count = 0;
+  dataSet = "";
+  dataSrc = [];
+  dbBALife_ZH.where('EmpGroup','==', id)
+  .orderBy('RankingZH','asc')
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      i = (i+1);
+      if(id=="BBD") {
+        dataSet = [doc.data().EmpZone, doc.data().EmpRH, doc.data().RankingZH ,addCommas(doc.data().TargetBATrip) ,addCommas(doc.data().TotalAPENet), doc.data().Achievement, doc.id, i];
+      } else if(id=="WB") { 
+        dataSet = [doc.data().EmpZone, doc.data().EmpRH, doc.data().CarryPoint ,addCommas(doc.data().TargetBATrip) ,addCommas(doc.data().TotalAPENet), doc.data().Achievement, doc.id, i];
+      }
+      dataSrc.push(dataSet);
+      count++;
+    }); 
+    dTable=$('#ex-table').DataTable({
+      "bDestroy": true,    
+      data: dataSrc,
+      columns: [
+        { title: "Zone" },
+        { title: "RH", className: "txt-center" },
+        { title: "Ranking", className: "txt-center" },
+        { title: "Target BA", className: "txt-right"  },
+        { title: "Total APE Net", className: "txt-right" },
+        { title: "%เป้าหมาย", className: "txt-right"  },
+        ],
+        dom: 'lfrtipB',
+        buttons: [
+            //'copy', 'excelFlash', 'excel', 'pdf', 'print'
+        ],
+          lengthMenu: [[50, 100, -1], [50, 100, "All"]],
+
+        columnDefs: [ { type: 'num-fmt', 'targets': [2] } ],
+        order: [[ 2, 'asc']]
+      });   
+  });
+  $('#ex-table').DataTable().destroy();
+  $("#ex-table tbody").remove();
+}
+
+function addCommas(nStr) {
+  nStr += '';
+  x = nStr.split('.');
+  x1 = x[0];
+  x2 = x.length > 1 ? '.' + x[1] : '';
+  var rgx = /(\d+)(\d{3})/;
+  while (rgx.test(x1)) {
+    x1 = x1.replace(rgx, '$1' + ',' + '$2');
+  }
+  return x1 + x2;
+}

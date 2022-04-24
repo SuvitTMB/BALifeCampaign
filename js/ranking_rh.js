@@ -1,1 +1,84 @@
-(function(_0x4740f1,_0xce853c){var _0x5dbe29=_0x5cfd,_0x2d4fa7=_0x4740f1();while(!![]){try{var _0x380be3=-parseInt(_0x5dbe29(0xc2))/0x1+-parseInt(_0x5dbe29(0xb5))/0x2+-parseInt(_0x5dbe29(0xa1))/0x3+parseInt(_0x5dbe29(0xb2))/0x4+-parseInt(_0x5dbe29(0xcd))/0x5*(parseInt(_0x5dbe29(0xcf))/0x6)+parseInt(_0x5dbe29(0xab))/0x7+parseInt(_0x5dbe29(0xa4))/0x8;if(_0x380be3===_0xce853c)break;else _0x2d4fa7['push'](_0x2d4fa7['shift']());}catch(_0x472ef1){_0x2d4fa7['push'](_0x2d4fa7['shift']());}}}(_0x5446,0x783d4),$(document)['ready'](function(){var _0x2acfba=_0x5cfd;sessionStorage[_0x2acfba(0xc3)](_0x2acfba(0xac))==null&&(location[_0x2acfba(0xb9)]='index.html'),$('#BALifeDate')[_0x2acfba(0xb6)](sessionStorage[_0x2acfba(0xc3)](_0x2acfba(0xca))),Connect_DB();}));function Connect_DB(){var _0x48aa6c=_0x5cfd,_0x1c0add={'apiKey':'AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE','authDomain':_0x48aa6c(0xa2),'projectId':_0x48aa6c(0xb4),'databaseURL':_0x48aa6c(0xc7),'storageBucket':_0x48aa6c(0xba),'messagingSenderId':_0x48aa6c(0xc5),'appId':_0x48aa6c(0xd4),'measurementId':'G-9SKTRHHSW9'};firebase['initializeApp'](_0x1c0add),dbBALife_RH=firebase[_0x48aa6c(0xa7)]()[_0x48aa6c(0xa9)](_0x48aa6c(0xce)),loadRH();}function loadRH(){var _0x210ecc=_0x5cfd,_0x3c7e33=0x0,_0x4bff3c=0x0;count=0x0,dataSet='',dataSrc=[],dbBALife_RH[_0x210ecc(0xcb)](_0x210ecc(0xa6),'==',sessionStorage[_0x210ecc(0xc3)](_0x210ecc(0xb0)))[_0x210ecc(0xc1)]('Ranking',_0x210ecc(0xc9))[_0x210ecc(0xc8)]()[_0x210ecc(0xc4)](_0x26582a=>{var _0x90bdeb=_0x210ecc;_0x26582a[_0x90bdeb(0xaa)](_0x8ca1a7=>{var _0x57a3b7=_0x90bdeb;_0x3c7e33=_0x3c7e33+0x1,dataSet=[_0x8ca1a7['data']()[_0x57a3b7(0xa8)],_0x8ca1a7[_0x57a3b7(0xd1)]()[_0x57a3b7(0xb3)],addCommas(_0x8ca1a7['data']()[_0x57a3b7(0xad)][_0x57a3b7(0xaf)](0x0)),addCommas(_0x8ca1a7['data']()[_0x57a3b7(0xbb)]['toFixed'](0x0)),_0x8ca1a7[_0x57a3b7(0xd1)]()[_0x57a3b7(0xa0)],_0x8ca1a7['id'],_0x3c7e33],dataSrc[_0x57a3b7(0x9f)](dataSet),count++;}),dTable=$(_0x90bdeb(0xd0))[_0x90bdeb(0xd3)]({'bDestroy':!![],'data':dataSrc,'columns':[{'title':'RH','className':_0x90bdeb(0xd2)},{'title':_0x90bdeb(0xb3),'className':_0x90bdeb(0xd2)},{'title':_0x90bdeb(0xbe),'className':'txt-right'},{'title':_0x90bdeb(0xa5),'className':_0x90bdeb(0xbc)},{'title':_0x90bdeb(0xa3),'className':_0x90bdeb(0xbc)}],'dom':_0x90bdeb(0xbf),'buttons':[],'lengthMenu':[[0x1e,0x32,0x64,-0x1],[0x1e,0x32,0x64,_0x90bdeb(0xbd)]],'columnDefs':[{'type':'num-fmt','targets':[0x1]}],'order':[[0x1,_0x90bdeb(0xc9)]]});}),$(_0x210ecc(0xd0))[_0x210ecc(0xd3)]()[_0x210ecc(0xae)](),$(_0x210ecc(0xc0))[_0x210ecc(0xb8)]();}function _0x5cfd(_0x17a61c,_0x239584){var _0x5446ef=_0x5446();return _0x5cfd=function(_0x5cfdfc,_0x2419fe){_0x5cfdfc=_0x5cfdfc-0x9f;var _0x1a2083=_0x5446ef[_0x5cfdfc];return _0x1a2083;},_0x5cfd(_0x17a61c,_0x239584);}function _0x5446(){var _0x4bea90=['Total\x20APE\x20Net','EmpGroup','firestore','EmpRH','collection','forEach','370412PhfNHD','EmpGroup_BArh','Target_BATrip','destroy','toFixed','EmpGroup_BA','length','190144kbXNPT','Ranking','retailproject-6f4fc','1414266SijPDe','html','replace','remove','href','retailproject-6f4fc.appspot.com','TotalAPENet','txt-right','All','Target\x20BA','lfrtipB','#ex-table\x20tbody','orderBy','230970qcFUHp','getItem','then','653667385625','test','https://file-upload-6f4fc.firebaseio.com','get','asc','BALifeDate','where','split','316085ObvNfZ','BAlifeMember_RH','6fkSXEU','#ex-table','data','txt-center','DataTable','1:653667385625:web:a5aed08500de80839f0588','push','Achievement','2934483PIpsgw','retailproject-6f4fc.firebaseapp.com','%เป้าหมาย','18972232VrTMBF'];_0x5446=function(){return _0x4bea90;};return _0x5446();}function addCommas(_0x122489){var _0x113e50=_0x5cfd;_0x122489+='',x=_0x122489[_0x113e50(0xcc)]('.'),x1=x[0x0],x2=x[_0x113e50(0xb1)]>0x1?'.'+x[0x1]:'';var _0x2589c7=/(\d+)(\d{3})/;while(_0x2589c7[_0x113e50(0xc6)](x1)){x1=x1[_0x113e50(0xb7)](_0x2589c7,'$1'+','+'$2');}return x1+x2;}
+
+
+$(document).ready(function () {
+  if(sessionStorage.getItem("EmpGroup_BArh")==null) { location.href = "index.html"; }
+  //alert(sessionStorage.getItem("EmpZone"));
+  $("#BALifeDate").html(sessionStorage.getItem("BALifeDate"));  
+  //alert(sessionStorage.getItem("EmpGroup"));
+ 	Connect_DB();
+});
+
+
+function Connect_DB() {
+  var firebaseConfig = {
+    apiKey: "AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE",
+    authDomain: "retailproject-6f4fc.firebaseapp.com",
+    projectId: "retailproject-6f4fc",
+    databaseURL: "https://file-upload-6f4fc.firebaseio.com",
+    storageBucket: "retailproject-6f4fc.appspot.com",
+    messagingSenderId: "653667385625",
+    appId: "1:653667385625:web:a5aed08500de80839f0588",
+    measurementId: "G-9SKTRHHSW9"
+  };
+  firebase.initializeApp(firebaseConfig);
+  dbBALife_RH = firebase.firestore().collection("BAlifeMember_RH");
+  loadRH();
+  //UserRanking();
+  //ListRanking();
+}
+
+
+
+function loadRH(){
+  var i = 0;
+  var sAchievement = 0;
+  count = 0;
+  dataSet = "";
+  dataSrc = [];
+  dbBALife_RH.where('EmpGroup','==', sessionStorage.getItem("EmpGroup_BA"))
+  .orderBy('Ranking','asc')
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      i = (i+1);
+      //sAchievement = addCommas(doc.data().Achievement);
+      dataSet = [doc.data().EmpRH, doc.data().Ranking ,addCommas(doc.data().Target_BATrip.toFixed(0)) ,addCommas(doc.data().TotalAPENet.toFixed(0)), doc.data().Achievement, doc.id, i];
+      dataSrc.push(dataSet);
+      count++;
+    }); 
+    dTable=$('#ex-table').DataTable({
+      "bDestroy": true,    
+      data: dataSrc,
+      columns: [
+        { title: "RH", className: "txt-center" },
+        { title: "Ranking", className: "txt-center" },
+        { title: "Target BA", className: "txt-right"  },
+        { title: "Total APE Net", className: "txt-right" },
+        { title: "%เป้าหมาย", className: "txt-right"  },
+        ],
+        dom: 'lfrtipB',
+        buttons: [
+            //'copy', 'excelFlash', 'excel', 'pdf', 'print'
+        ],
+          lengthMenu: [[30, 50, 100, -1], [30, 50, 100, "All"]],
+
+        columnDefs: [ { type: 'num-fmt', 'targets': [1] } ],
+        order: [[ 1, 'asc']]
+      });   
+  });
+  $('#ex-table').DataTable().destroy();
+  $("#ex-table tbody").remove();
+}
+
+
+
+function addCommas(nStr) {
+  nStr += '';
+  x = nStr.split('.');
+  x1 = x[0];
+  x2 = x.length > 1 ? '.' + x[1] : '';
+  var rgx = /(\d+)(\d{3})/;
+  while (rgx.test(x1)) {
+    x1 = x1.replace(rgx, '$1' + ',' + '$2');
+  }
+  return x1 + x2;
+}

@@ -1,1 +1,47 @@
-var _0x5dab50=_0x51b9;(function(_0x363164,_0x3c80ae){var _0x3c3ac1=_0x51b9,_0x2c3818=_0x363164();while(!![]){try{var _0x5dfe51=-parseInt(_0x3c3ac1(0x1f8))/0x1+-parseInt(_0x3c3ac1(0x1f5))/0x2*(parseInt(_0x3c3ac1(0x1f6))/0x3)+-parseInt(_0x3c3ac1(0x1fd))/0x4+-parseInt(_0x3c3ac1(0x1f3))/0x5+parseInt(_0x3c3ac1(0x1e7))/0x6*(parseInt(_0x3c3ac1(0x1e8))/0x7)+parseInt(_0x3c3ac1(0x1ee))/0x8+parseInt(_0x3c3ac1(0x1f7))/0x9*(parseInt(_0x3c3ac1(0x200))/0xa);if(_0x5dfe51===_0x3c80ae)break;else _0x2c3818['push'](_0x2c3818['shift']());}catch(_0x1f2e53){_0x2c3818['push'](_0x2c3818['shift']());}}}(_0x5915,0x939ae),$(document)[_0x5dab50(0x1ff)](function(){var _0x3590aa=_0x5dab50;sessionStorage['getItem']('EmpGroup_BArh')==null&&(location[_0x3590aa(0x1fe)]=_0x3590aa(0x1ed)),CheckDep();}));function _0x51b9(_0x504f69,_0x4a7d1f){var _0x591570=_0x5915();return _0x51b9=function(_0x51b9b3,_0x30fada){_0x51b9b3=_0x51b9b3-0x1e7;var _0x153fda=_0x591570[_0x51b9b3];return _0x153fda;},_0x51b9(_0x504f69,_0x4a7d1f);}function CheckDep(){var _0x3513a9=_0x5dab50,_0x5b09f8='';if(sessionStorage['getItem']('EmpGroup')==_0x3513a9(0x1eb))_0x5b09f8+='<center><div\x20class=\x22col-lg-6\x20col-md-2\x20slide\x20text-center\x22\x20data-aos=\x22fade-left\x22\x20style=\x22margin-top:30px;\x22>',_0x5b09f8+=_0x3513a9(0x1f4),_0x5b09f8+='<img\x20src=\x22./img/BA-01.jpg\x22\x20style=\x22width:95%\x22;></div></div>',_0x5b09f8+=_0x3513a9(0x1f1),_0x5b09f8+=_0x3513a9(0x1f4),_0x5b09f8+=_0x3513a9(0x1f9),_0x5b09f8+=_0x3513a9(0x1f1),_0x5b09f8+=_0x3513a9(0x1f4),_0x5b09f8+=_0x3513a9(0x1fb);else sessionStorage['getItem'](_0x3513a9(0x1f0))=='WB'&&(_0x5b09f8+='<center><div\x20class=\x22col-lg-6\x20col-md-2\x20slide\x20text-center\x22\x20data-aos=\x22fade-left\x22\x20style=\x22margin-top:30px;\x22>',_0x5b09f8+='<div\x20class=\x22box-campaigns\x22\x20style=\x22margin-top:15px;\x22>',_0x5b09f8+=_0x3513a9(0x1fc),_0x5b09f8+=_0x3513a9(0x1f1),_0x5b09f8+=_0x3513a9(0x1f4),_0x5b09f8+=_0x3513a9(0x1e9),_0x5b09f8+=_0x3513a9(0x1f1),_0x5b09f8+=_0x3513a9(0x1f4),_0x5b09f8+=_0x3513a9(0x1ec),_0x5b09f8+=_0x3513a9(0x1f1),_0x5b09f8+=_0x3513a9(0x1f4),_0x5b09f8+=_0x3513a9(0x1ea),_0x5b09f8+=_0x3513a9(0x1fa));$('#DisplayCampaign')['html'](_0x5b09f8);}function _0x5915(){var _0x226908=['</center>','<img\x20src=\x22./img/BA-03.jpg\x22\x20style=\x22width:95%\x22;></div></div></center>','<img\x20src=\x22./img/WB-01.jpg\x22\x20style=\x22width:95%\x22;></div></div>','3355304OYKUbt','href','ready','10481200gwNlji','298734CwNpXL','119HjfkCK','<img\x20src=\x22./img/WB-02.jpg\x22\x20style=\x22width:95%\x22;></div></div>','<img\x20src=\x22./img/WB-04.jpg\x22\x20style=\x22width:95%\x22;></div></div>','BBD','<img\x20src=\x22./img/WB-03.jpg\x22\x20style=\x22width:95%\x22;></div></div>','index.html','2218552DhJzee','https://www.ttbbank.com/th','EmpGroup','<div\x20class=\x22col-lg-6\x20col-md-2\x20slide\x20text-center\x22\x20data-aos=\x22fade-left\x22\x20style=\x22margin-top:30px;\x22>','open','5018085dcyMNW','<div\x20class=\x22box-campaigns\x22\x20style=\x22margin-top:15px;\x22>','2078EcfBcv','2769Icnunf','27IEOTlV','862062lNoUPw','<img\x20src=\x22./img/BA-02.jpg\x22\x20style=\x22width:95%\x22;></div></div>'];_0x5915=function(){return _0x226908;};return _0x5915();}function OpenLink(_0x29406c){var _0x258a8a=_0x5dab50;if(_0x29406c==0x1)window[_0x258a8a(0x1f2)](_0x258a8a(0x1ef));else _0x29406c==0x2&&window[_0x258a8a(0x1f2)]('https://www.ttbbank.com/th/fin-tips/mindful-spending-and-start-saving');}
+$(document).ready(function () {
+  if(sessionStorage.getItem("EmpGroup_BArh")==null) { location.href = "index.html"; }
+  CheckDep();
+});
+
+
+function CheckDep() {
+	var str = "";
+	if(sessionStorage.getItem("EmpGroup")=="BBD") {
+		str += '<center><div class="col-lg-6 col-md-2 slide text-center" data-aos="fade-left" style="margin-top:30px;">';
+		str += '<div class="box-campaigns" style="margin-top:15px;">';
+		str += '<img src="./img/BA-01.jpg" style="width:95%";></div></div>';
+		str += '<div class="col-lg-6 col-md-2 slide text-center" data-aos="fade-left" style="margin-top:30px;">';
+		str += '<div class="box-campaigns" style="margin-top:15px;">';
+		str += '<img src="./img/BA-02.jpg" style="width:95%";></div></div>';
+		str += '<div class="col-lg-6 col-md-2 slide text-center" data-aos="fade-left" style="margin-top:30px;">';
+		str += '<div class="box-campaigns" style="margin-top:15px;">';
+		str += '<img src="./img/BA-03.jpg" style="width:95%";></div></div>';
+		str += '<div class="col-lg-6 col-md-2 slide text-center" data-aos="fade-left" style="margin-top:30px;">';
+		str += '<div class="box-campaigns" style="margin-top:15px;">';
+		str += '<img src="./img/BA-04.jpg" style="width:95%";></div></div></center>';
+	} else if(sessionStorage.getItem("EmpGroup")=="WB") { 
+		str += '<center><div class="col-lg-6 col-md-2 slide text-center" data-aos="fade-left" style="margin-top:30px;">';
+		str += '<div class="box-campaigns" style="margin-top:15px;">';
+		str += '<img src="./img/WB-01.jpg" style="width:95%";></div></div>';
+		str += '<div class="col-lg-6 col-md-2 slide text-center" data-aos="fade-left" style="margin-top:30px;">';
+		str += '<div class="box-campaigns" style="margin-top:15px;">';
+		str += '<img src="./img/WB-02.jpg" style="width:95%";></div></div>';
+		str += '<div class="col-lg-6 col-md-2 slide text-center" data-aos="fade-left" style="margin-top:30px;">';
+		str += '<div class="box-campaigns" style="margin-top:15px;">';
+		str += '<img src="./img/WB-03.jpg" style="width:95%";></div></div>';
+		str += '<div class="col-lg-6 col-md-2 slide text-center" data-aos="fade-left" style="margin-top:30px;">';
+		str += '<div class="box-campaigns" style="margin-top:15px;">';
+		str += '<img src="./img/WB-04.jpg" style="width:95%";></div></div>';
+		str += '</center>';
+	}
+    $("#DisplayCampaign").html(str);
+}
+
+function OpenLink(x) {
+  if(x==1) {
+    window.open("https://www.ttbbank.com/th");
+    //location.href = "https://www.ttbbank.com/th";
+  } else if(x==2) { 
+    window.open("https://www.ttbbank.com/th/fin-tips/mindful-spending-and-start-saving");
+  }
+}
