@@ -1,12 +1,1 @@
-$(document).ready(function () {
-  if(sessionStorage.getItem("EmpLevel_SBO")==null) { location.href = "index.html"; }
-});
-
-function OpenLink(x) {
-  if(x==1) {
-    window.open("https://www.ttbbank.com/th");
-    //location.href = "https://www.ttbbank.com/th";
-  } else if(x==2) { 
-    window.open("https://www.ttbbank.com/th/fin-tips/mindful-spending-and-start-saving");
-  }
-}
+var _0x32b290=_0x4e38;function _0x4e38(_0x4313c3,_0x296b00){var _0x27c781=_0x27c7();return _0x4e38=function(_0x4e3846,_0x232275){_0x4e3846=_0x4e3846-0x14d;var _0x377f27=_0x27c781[_0x4e3846];return _0x377f27;},_0x4e38(_0x4313c3,_0x296b00);}(function(_0x463e05,_0x3048fc){var _0x191b8d=_0x4e38,_0x44f3c5=_0x463e05();while(!![]){try{var _0x55872f=parseInt(_0x191b8d(0x155))/0x1*(parseInt(_0x191b8d(0x15e))/0x2)+-parseInt(_0x191b8d(0x14e))/0x3*(parseInt(_0x191b8d(0x15f))/0x4)+-parseInt(_0x191b8d(0x15a))/0x5+parseInt(_0x191b8d(0x152))/0x6*(parseInt(_0x191b8d(0x15d))/0x7)+-parseInt(_0x191b8d(0x14d))/0x8+-parseInt(_0x191b8d(0x15c))/0x9+-parseInt(_0x191b8d(0x14f))/0xa*(-parseInt(_0x191b8d(0x15b))/0xb);if(_0x55872f===_0x3048fc)break;else _0x44f3c5['push'](_0x44f3c5['shift']());}catch(_0x4f52ba){_0x44f3c5['push'](_0x44f3c5['shift']());}}}(_0x27c7,0x6ae58),$(document)[_0x32b290(0x153)](function(){var _0x55d6ab=_0x32b290;sessionStorage[_0x55d6ab(0x158)](_0x55d6ab(0x151))==null&&(location[_0x55d6ab(0x154)]=_0x55d6ab(0x150));}));function _0x27c7(){var _0x2d7e62=['4605993MbIHxl','7PDajlE','6LmhvKJ','796XOEciT','672952OFKRMt','3693ImVMqO','3625690PJYuXh','index.html','EmpLevel_SBO','2038674tpQCiO','ready','href','123214pTYPfy','open','https://www.ttbbank.com/th','getItem','https://www.ttbbank.com/th/fin-tips/mindful-spending-and-start-saving','2592075dZWqha','33YuqCMA'];_0x27c7=function(){return _0x2d7e62;};return _0x27c7();}function OpenLink(_0x365f97){var _0x13967b=_0x32b290;if(_0x365f97==0x1)window['open'](_0x13967b(0x157));else _0x365f97==0x2&&window[_0x13967b(0x156)](_0x13967b(0x159));}
