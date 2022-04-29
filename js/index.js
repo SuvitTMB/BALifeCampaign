@@ -33,7 +33,7 @@ $(document).ready(function () {
   str += '<div class="NameLine">'+ sessionStorage.getItem("LineName")+'</div>';
   $("#MyProfile").html(str);  
   Connect_DB();
-*/  
+*/
   
   main();
 });
@@ -99,7 +99,6 @@ function Connect_DB() {
 
 var CheckFoundData = 0;
 function CheckData() {
-  //console.log(sessionStorage.getItem("LineID"));
   dbProfile.where('lineID','==',sessionStorage.getItem("LineID"))
   .get().then((snapshot)=> {
     snapshot.forEach(doc=> {
@@ -107,8 +106,7 @@ function CheckData() {
       sessionStorage.setItem("EmpName", doc.data().empName);
       if(doc.data().statusconfirm==1) {
         EidProfile = doc.id;
-        sDateRegister = doc.data().DateRegister;
-        sessionStorage.setItem("EmpID", doc.data().empID);
+        sDateRegister = doc.data().DateRegister;       
         document.getElementById("txtEmpID").value = doc.data().empID;
         document.getElementById("txtEmpName").value = doc.data().empName;
         document.getElementById("txtEmpPhone").value = doc.data().empPhone;
@@ -128,49 +126,6 @@ function CheckData() {
   });
 }
 
-
-/*
-var CheckFoundData = 0;
-function CheckData() {
-  //console.log(sessionStorage.getItem("LineID"));
-  dbProfile.where('lineID','==',sessionStorage.getItem("LineID"))
-  .get().then((snapshot)=> {
-    snapshot.forEach(doc=> {
-      CheckFoundData = 1;
-      EidProfile = doc.id;
-      sDateRegister = doc.data().DateRegister;
-      sessionStorage.setItem("EmpID", doc.data().empID);
-      sessionStorage.setItem("EmpName", doc.data().empName);
-      document.getElementById("txtEmpID").value = doc.data().empID;
-      document.getElementById("txtEmpName").value = doc.data().empName;
-      document.getElementById("txtEmpPhone").value = doc.data().empPhone;
-      document.getElementById("txtEmpGroup").value = doc.data().empGroup;
-      if(doc.data().statusconfirm==1) {
-        CheckTNIapprove();
-      } else {
-        CheckFoundData = doc.data().statusconfirm;
-        WaitingPage();
-      }
-    });
-    if(CheckFoundData==0) {
-      document.getElementById('Loading').style.display='none';
-      document.getElementById('WaitingPage').style.display='none';
-      document.getElementById('myRegister').style.display='block';
-    }
-  });
-}
-*/
-
-
-
-
-/*
-
-function NotUserSystem() {
-  document.getElementById('Loading').style.display='none';
-  document.getElementById('NotPass').style.display='block';
-}
-*/
 
 function CheckTNIdate(x) {
   dbTNIdate.where('CodeName','==',x)
@@ -312,6 +267,7 @@ function CheckTNIapprove_BArh() {
       sCodeName = "BALifeCampaign_BBD";
       CheckTNIdate(sCodeName);
       sTNIapprove_BArh = 1
+      sessionStorage.setItem("EmpGroup_RH", doc.data().EmpRH);
       sessionStorage.setItem("EmpGroup_BA", doc.data().EmpGroup);
       sessionStorage.setItem("EmpGroup_BArh", "RH Group");
       sessionStorage.setItem("EmpLevel_BArh", 1);
@@ -435,20 +391,7 @@ function WaitingPage() {
   document.getElementById('myRegister').style.display='none';
   document.getElementById('WaitingPage').style.display='block';
 }
-/*
 
-function WaitingPage() {
-  var str = "";
-  str +='<center><div><img src="./img/stop.png" width="250px;"></div>';
-  str +='<div style="margin-top:20px;"><br><div class="text-waiting">เรียน <font color="#0056ff"><b>คุณ'+sessionStorage.getItem("EmpName")+'</b></font>';
-  str +='<br><b><font color="#ff0000">คุณไม่ได้รับสิทธิ์ในการเข้าใช้งานเว็บไซต์นี้</font></b></div>';
-  //str +='<div class="btn-t1" onclick="EditData()">คลิกเพื่อตรวจสอบข้อมูล</div>';
-  str +='</div></center>';
-  $("#MyWatingPage").html(str);  
-  document.getElementById('Loading').style.display='none';
-  document.getElementById('WaitingPage').style.display='block';
-}
-*/
 
 function ClickSaveProfile() {
   var sCheckBottom = 0;
