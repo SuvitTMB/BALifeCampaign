@@ -17,11 +17,10 @@ var sMemberlog = "";
 const x = document.querySelectorAll(`div.com[min="${i}"]`);
 
 
-
 $(document).ready(function () {
   //sessionStorage.clear();
 
-/*
+
   var str = "";
   var sLineID = "Ua6b6bf745bd9bfd01a180de1a05c23b3";
   var sLineName = "Website";
@@ -33,9 +32,9 @@ $(document).ready(function () {
   str += '<div class="NameLine">'+ sessionStorage.getItem("LineName")+'</div>';
   $("#MyProfile").html(str);  
   Connect_DB();
-*/
+
   
-  main();
+  //main();
 });
 
 
@@ -113,15 +112,17 @@ function CheckData() {
         document.getElementById("txtEmpGroup").value = doc.data().empGroup;
         CheckTNIapprove();
       } else {
-        CheckFoundData = doc.data().statusconfirm;
-        WaitingPage();
+        location.href = "https://liff.line.me/1655966947-KxrAqdyp";
+        //CheckFoundData = doc.data().statusconfirm;
+        //WaitingPage();
       }
     });
     if(CheckFoundData==0) {
-      document.getElementById('Loading').style.display='none';
-      document.getElementById('myTimer').style.display='none';
-      document.getElementById('WaitingPage').style.display='none';
-      document.getElementById('myRegister').style.display='block';
+      location.href = "https://liff.line.me/1655966947-KxrAqdyp";
+      //document.getElementById('Loading').style.display='none';
+      //document.getElementById('myTimer').style.display='none';
+      //document.getElementById('WaitingPage').style.display='none';
+      //document.getElementById('myRegister').style.display='block';
     }
   });
 }
@@ -374,7 +375,6 @@ function CheckTNIapprove_AD() {
 
 
 function WaitingPage() {
-  //alert(CheckFoundData);
   var str = "";
   str +='<center><div><img src="./img/stop.png" width="250px;"></div>';
   str +='<div style="margin-top:20px;"><br><div class="text-waiting">เรียน <font color="#0056ff"><b>คุณ'+sessionStorage.getItem("EmpName")+'</b></font>';
@@ -384,7 +384,6 @@ function WaitingPage() {
     str +='<br><b><font color="#ff0000">คุณไม่ได้รับสิทธิ์ในการเข้าใช้งานระบบนี้</font></b></div>';
     str +='<a href="mailto:suvit.cha@ttbbank.com&subject=แจ้งขอใช้ระบบงานของ LINE Retail Society&body=กรุณาระบุเหตุผลที่ต้องการใช้งาน" style="text-decoration: none;"><div class="btn-t2">แจ้งเราหากคุณต้องการใช้งาน</div></a>';
   }
-  //str +='<div class="btn-t1" onclick="EditData()">คลิกเพื่อตรวจสอบข้อมูล</div>';
   str +='</div></center>';
   $("#MyWatingPage").html(str);  
   document.getElementById('Loading').style.display='none';
@@ -409,33 +408,11 @@ function ClickSaveProfile() {
   }
 }
 
-
-
-
 function SaveData() {
   NewDate();
   if(EidProfile=="") {
     alert("New User");
     dbProfile.add({
-/*
-      lineID : sessionStorage.getItem("LineID"),
-      lineName : sessionStorage.getItem("LineName"),
-      linePicture : sessionStorage.getItem("LinePicture"),
-      empID : document.getElementById("txtEmpID").value,
-      empName : document.getElementById("txtEmpName").value,
-      empPhone : document.getElementById("txtEmpPhone").value,
-      empGroup : document.getElementById("txtEmpGroup").value,
-      empRH : document.getElementById("txtEmpGroup").value,
-      statusconfirm : 2,
-      statusedit : 1,
-      statuspass : 0,
-      empAddress : '',
-      lastcheckin : '',
-      memo : '',
-      empBr : '',
-      DateRegister : dateString,
-      RegisterDate : dateString
-*/
       lineID : sessionStorage.getItem("LineID"),
       linename : sessionStorage.getItem("LineName"),
       linePicture : sessionStorage.getItem("LinePicture"),
@@ -455,8 +432,6 @@ function SaveData() {
       memo : '',
       empBr : 'BBD',
       DateRegister : dateString
-
-
     });
   }
   CheckData();
