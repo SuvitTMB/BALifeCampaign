@@ -58,6 +58,13 @@ function AdminMenu() {
     str += '<div style="width:28px;"><img src="./img/report-3.png" style="width:22px;"></div>';
     str += '<div style="font-size: 11px;">Branch</div></div>';
   } else if(sessionStorage.getItem("EmpGroup_Admin")=="WB") { 
+    str += '<div class="iconlink1" onClick=window.location="ad_zh.html";>';
+    str += '<div style="width:28px;"><img src="./img/report-2.png" style="width:22px;"></div>';
+    str += '<div style="font-size: 11px;">ZH</div></div>';
+    str += '<div class="iconlink1" onClick=window.location="ad_ba.html";>';
+    str += '<div style="width:28px;"><img src="./img/report-3.png" style="width:22px;"></div>';
+    str += '<div style="font-size: 11px;">Branch</div></div>';
+  } else if(sessionStorage.getItem("EmpGroup_Admin")=="SBO") { 
     str += '<div class="iconlink1" onClick=window.location="ad_zmsbo.html";>';
     str += '<div style="width:28px;"><img src="./img/report-4.png" style="width:22px;"></div>';
     str += '<div style="font-size: 11px;">ZM-SBO</div></div>';

@@ -30,6 +30,7 @@ function Connect_DB() {
 
 
 function loadZH(){
+  //alert(sessionStorage.getItem("EmpZone"));
   var i = 0;
   var sAchievement = 0;
   count = 0;

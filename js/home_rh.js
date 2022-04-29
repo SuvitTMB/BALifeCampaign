@@ -68,6 +68,20 @@ function CheckData() {
       str += '<div class="box-rh-text2">อันดับ</div></div></div>';
       $("#MyData1").html(str);  
 
+      var str2 = '';
+      str2 += '<div style="margin-top:10px;"><div class="box-rh">';
+      str2 += '<div class="box-rh-text">APE Net</div>';
+      str2 += '<div class="box-rh-text1">'+addCommas(doc.data().APENET.toFixed(0))+'</div>';
+      str2 += '<div class="box-rh-text2">บาท</div></div>';
+      str2 += '<div class="box-rh"><div class="box-rh-text">Month Point</div>';
+      str2 += '<div class="box-rh-text1">'+addCommas(doc.data().MonthPoint.toFixed(0))+'</div>';
+      str2 += '<div class="box-rh-text2">บาท</div></div>';
+      str2 += '<div class="box-rh"><div class="box-rh-text">Reward</div>';
+      str2 += '<div class="box-rh-text1">'+doc.data().Reward+'</div>';
+      str2 += '<div class="box-rh-text2">บาท</div></div>';
+      $("#MyData2").html(str2);  
+      $("#MyTotalMonth").html("ผลงานประจำ"+sessionStorage.getItem("ReportMonth"));  
+
     });
   });
 }

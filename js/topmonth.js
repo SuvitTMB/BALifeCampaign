@@ -47,7 +47,7 @@ function UserRanking() {
 function ListRanking() {
   var str = "";
   dbTNInember.where('EmpGroup','==',sessionStorage.getItem("EmpGroup"))
-  .orderBy('TopYear','asc')
+  .orderBy('TopMonth','asc')
   .limit(50)
   .get().then((snapshot)=> {
     snapshot.forEach(doc=> {

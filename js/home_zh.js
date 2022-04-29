@@ -89,7 +89,7 @@ function CheckData() {
       str2 += '<input type="text" value="12,000 บาท" readonly></div>';
 
       str2 += '<div class="field-container"><label for="expirationdate"><b>Point - BA Trip</b></label>';
-      str2 += '<input id="expirationdate" type="text" value="'+addCommas(doc.data().TotalPoint.toFixed(0))+' คะแนน" readonly></div>';
+      str2 += '<input id="expirationdate" type="text" value="'+addCommas(doc.data().PointTrip.toFixed(0))+' คะแนน" readonly></div>';
       str2 += '<div class="field-container"><label for="expirationdate"><b>% Achievement</b></label>';
       str2 += '<input id="expirationdate" type="text" value="'+doc.data().Achievement+'" readonly></div>';
       str2 += '<div class="field-container"><label for="securitycode"><b>Target BA Trip</b></label>';

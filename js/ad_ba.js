@@ -1,8 +1,9 @@
+var x = "BBD";
 
 
 $(document).ready(function () {
   if(sessionStorage.getItem("EmpGroup_AD")==null) { location.href = "index.html"; }
-  if(sessionStorage.getItem("EmpGroup_Admin")=="WB") { 
+  if(sessionStorage.getItem("EmpGroup_Admin")=="SBO") { 
     location.href = 'ad_zmsbo.html';  
   } 
   $("#BALifeDate").html(sessionStorage.getItem("BALifeDate"));  
@@ -24,7 +25,18 @@ function Connect_DB() {
   firebase.initializeApp(firebaseConfig);
   dbBALife = firebase.firestore().collection("BAlifeMember");
   AdminMenu();
-  loadZH();
+  SelectMeunu();
+}
+
+
+function SelectMeunu() {
+  if(sessionStorage.getItem("EmpGroup_Admin")=="WB") {
+    document.getElementById('OpenData').style.display='none';
+    x = "WB";
+  } else {
+    x = document.getElementById("ClickMenu").value;
+  }
+  loadZH(x);
 }
 
 
@@ -58,6 +70,13 @@ function AdminMenu() {
     str += '<div style="width:28px;"><img src="./img/report-3.png" style="width:22px;"></div>';
     str += '<div style="font-size: 11px;">Branch</div></div>';
   } else if(sessionStorage.getItem("EmpGroup_Admin")=="WB") { 
+    str += '<div class="iconlink1" onClick=window.location="ad_zh.html";>';
+    str += '<div style="width:28px;"><img src="./img/report-2.png" style="width:22px;"></div>';
+    str += '<div style="font-size: 11px;">ZH</div></div>';
+    str += '<div class="iconlink1" onClick=window.location="ad_ba.html"; style="background-color: #002d63;">';
+    str += '<div style="width:28px;"><img src="./img/report-3.png" style="width:22px;"></div>';
+    str += '<div style="font-size: 11px;">Branch</div></div>';
+  } else if(sessionStorage.getItem("EmpGroup_Admin")=="SBO") { 
     str += '<div class="iconlink1" onClick=window.location="ad_zmsbo.html";>';
     str += '<div style="width:28px;"><img src="./img/report-4.png" style="width:22px;"></div>';
     str += '<div style="font-size: 11px;">ZM-SBO</div></div>';
@@ -70,13 +89,13 @@ function AdminMenu() {
 }
 
 
-function loadZH(){
+function loadZH(id){
   var i = 0;
   var sAchievement = 0;
   count = 0;
   dataSet = "";
   dataSrc = [];
-  dbBALife.where('EmpGroup','==', "BBD")
+  dbBALife.where('EmpGroup','==', id)
   .orderBy('TopMonth','asc')
   .get().then((snapshot)=> {
     snapshot.forEach(doc=> {

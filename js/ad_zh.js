@@ -3,9 +3,9 @@ var x = "BBD";
 
 $(document).ready(function () {
   if(sessionStorage.getItem("EmpGroup_AD")==null) { location.href = "index.html"; }
-  if(sessionStorage.getItem("EmpGroup_Admin")=="WB") { 
+  if(sessionStorage.getItem("EmpGroup_Admin")=="SBO") {  
     location.href = 'ad_zmsbo.html';  
-  } 
+  }
   $("#BALifeDate").html(sessionStorage.getItem("BALifeDate"));  
  	Connect_DB();
 });
@@ -33,8 +33,14 @@ function Connect_DB() {
 
 
 function SelectMeunu() {
-  x = document.getElementById("ClickMenu").value;
-  loadZH(x);
+  if(sessionStorage.getItem("EmpGroup_Admin")=="WB") {
+    document.getElementById('OpenData').style.display='none';
+    x = "WB";
+    loadZH(x);
+  } else {
+    x = document.getElementById("ClickMenu").value;
+    loadZH(x);
+  }
 }
 
 function AdminMenu() {
@@ -67,6 +73,13 @@ function AdminMenu() {
     str += '<div style="width:28px;"><img src="./img/report-3.png" style="width:22px;"></div>';
     str += '<div style="font-size: 11px;">Branch</div></div>';
   } else if(sessionStorage.getItem("EmpGroup_Admin")=="WB") { 
+    str += '<div class="iconlink1" onClick=window.location="ad_zh.html"; style="background-color: #002d63;">';
+    str += '<div style="width:28px;"><img src="./img/report-2.png" style="width:22px;"></div>';
+    str += '<div style="font-size: 11px;">ZH</div></div>';
+    str += '<div class="iconlink1" onClick=window.location="ad_ba.html";>';
+    str += '<div style="width:28px;"><img src="./img/report-3.png" style="width:22px;"></div>';
+    str += '<div style="font-size: 11px;">Branch</div></div>';
+  } else if(sessionStorage.getItem("EmpGroup_Admin")=="SBO") { 
     str += '<div class="iconlink1" onClick=window.location="ad_zmsbo.html";>';
     str += '<div style="width:28px;"><img src="./img/report-4.png" style="width:22px;"></div>';
     str += '<div style="font-size: 11px;">ZM-SBO</div></div>';
@@ -90,11 +103,14 @@ function loadZH(id){
   .get().then((snapshot)=> {
     snapshot.forEach(doc=> {
       i = (i+1);
+        dataSet = [doc.data().EmpZone, doc.data().EmpRH, doc.data().RankingZH ,addCommas(doc.data().TargetBATrip) ,addCommas(doc.data().TotalAPENet), doc.data().Achievement, doc.id, i];
+/*
       if(id=="BBD") {
         dataSet = [doc.data().EmpZone, doc.data().EmpRH, doc.data().RankingZH ,addCommas(doc.data().TargetBATrip) ,addCommas(doc.data().TotalAPENet), doc.data().Achievement, doc.id, i];
       } else if(id=="WB") { 
         dataSet = [doc.data().EmpZone, doc.data().EmpRH, doc.data().CarryPoint ,addCommas(doc.data().TargetBATrip) ,addCommas(doc.data().TotalAPENet), doc.data().Achievement, doc.id, i];
       }
+*/
       dataSrc.push(dataSet);
       count++;
     }); 

@@ -30,12 +30,14 @@ function Connect_DB() {
 
 
 function loadZH(){
+  //alert(sessionStorage.getItem("EmpGroup_RH"));
   var i = 0;
   var sAchievement = 0;
   count = 0;
   dataSet = "";
   dataSrc = [];
-  dbBALife_ZH.where('EmpGroup','==', sessionStorage.getItem("EmpGroup_BA"))
+  //dbBALife_ZH.where('EmpGroup','==', sessionStorage.getItem("EmpGroup_BA"))
+  dbBALife_ZH.where('EmpRH','==', sessionStorage.getItem("EmpGroup_RH"))
   .orderBy('RankingZH','asc')
   .get().then((snapshot)=> {
     snapshot.forEach(doc=> {
